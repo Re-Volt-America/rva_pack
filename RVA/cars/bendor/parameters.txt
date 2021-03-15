@@ -1,0 +1,357 @@
+{
+
+;============================================================
+;============================================================
+; Bendor
+;============================================================
+;============================================================
+Name       	"Bendor"
+
+
+;====================
+; Stuff mainly for frontend display and car selectability
+;====================
+
+BestTime   	true
+Selectable 	true
+;)CPUSelectable	true
+;)Statistics 	true
+Class      	0 			; Engine type (0=Elec, 1=Glow, 2=Other)
+Obtain     	0 			; Obtain method
+Rating     	2 			; Skill level (rookie, amateur, ...)
+TopEnd     	2799.494629 		; Actual top speed (mph) for frontend bars
+Acc        	4.376385 		; Acceleration rating (empirical)
+Weight     	2.200000 		; Scaled weight (for frontend bars)
+Trans      	0 			; Transmission type (0=4WD, 1=FWD, 2=RWD)
+MaxRevs    	0.500000 		; Max Revs (for rev counter, deprecated...)
+
+;====================
+; Model Filenames
+;====================
+
+MODEL 	0 	"cars/bendor/body.prm"
+MODEL 	1 	"cars/bendor/wheel.prm"
+MODEL 	2 	"NONE"
+MODEL 	3 	"NONE"
+MODEL 	4 	"NONE"
+MODEL 	5 	"NONE"
+MODEL 	6 	"NONE"
+MODEL 	7 	"NONE"
+MODEL 	8 	"NONE"
+MODEL 	9 	"NONE"
+MODEL 	10 	"NONE"
+MODEL 	11 	"NONE"
+MODEL 	12 	"NONE"
+MODEL 	13 	"NONE"
+MODEL 	14 	"NONE"
+MODEL 	15 	"NONE"
+MODEL 	16 	"NONE"
+MODEL 	17 	"cars/misc/Aerial.m"
+MODEL 	18 	"cars/misc/AerialT.m"
+COLL 		"cars/bendor/hull.hul"
+TPAGE 		"cars/bendor/car.bmp"
+;)TCARBOX 	"cars/bendor/carbox.bmp" 			; Carbox texture
+;)TSHADOW 	"cars/bendor/shadow.bmp" 			; Shadow texture
+;)SHADOWINDEX 	-1 							; Use a default shadow (0 to 27 or -1)
+;)SHADOWTABLE 	-78.000000 78.000000 68.000000 -85.000000 -3.000000 	; Left, right, front, back, height (relative to model center)
+;)SFXENGINE 	"NONE"
+;)SFXSERVO 	"NONE"
+;)SFXHONK 	"NONE"
+EnvRGB 		200 200 0
+
+;====================
+; Handling related stuff
+;====================
+
+SteerRate  	8.000000 			; Rate at which steer angle approaches value from input
+SteerMod   	0.800000 			;
+EngineRate 	4.500000 			; Rate at which Engine voltage approaches set value
+TopSpeed   	32.000000 			; Car's theoretical top speed (not including friction...)
+DownForceMod	2.000000 			; Down force modifier when car on floor
+CoM        	0.000000 -10.000000 0.000000 	; Centre of mass relative to model centre
+Weapon     	0.000000 -32.000000 64.000000 	; Weapon generation offset
+;)Flippable	false 		; Rotor car effect
+;)Flying   	false 		; Flying like the UFO car
+;)ClothFx  	false 		; Mystery car cloth effect
+
+;====================
+; Camera details
+;====================
+
+;)CAMATTACHED {	; Start Camera
+;)HoodOffset   	0.000000 0.000000 0.000000 	; Offset from model center
+;)HoodLook     	0.050000 			; Look angle (-0.25 to 0.25, 0.0 - straight ahead)
+;)RearOffset   	0.000000 0.000000 0.000000
+;)RearLook     	0.050000
+;)FixedOffset  	true 				; Is offset fixed or moving
+;)FixedLook    	true 				; Is look fixed or moving
+;)UseDefault   	true 				; Use default offsets (computed in game)
+;)}            	; End Camera
+
+;====================
+; Car Body details
+;====================
+
+BODY {		; Start Body
+ModelNum   	0 			; Model Number in above list
+Offset     	0.000000 0.000000 0.000000
+Mass       	2.200000
+Inertia    	2500.000000 0.000000 0.000000
+           	0.000000 3000.000000 0.000000
+           	0.000000 0.000000 2500.000000
+Gravity    	2200 			; No longer used
+Hardness   	0.000000
+Resistance 	0.001000 		; Linear air resistance
+AngRes     	0.001500 		; Angular air resistance
+ResMod     	15.000000 		; AngRes scale when in air
+Grip       	0.800000 		; Converts downforce to friction value
+StaticFriction 	1.000000
+KineticFriction 0.500000
+}     		; End Body
+
+;====================
+; Car Wheel details
+;====================
+
+WHEEL 0 { 	; Start Wheel
+ModelNum 	1
+Offset1  	0.000000 2.000000 31.000000
+Offset2  	-40.000000 0.000000 0.000000
+IsPresent   	true
+IsPowered   	true
+IsTurnable  	true
+SteerRatio  	-0.085000
+EngineRatio 	30000.000000
+Radius      	15.000000
+Mass        	0.100000
+Gravity     	1000.000000
+MaxPos      	3.000000
+SkidWidth   	30.000000
+ToeIn       	0.000000
+;)Camber    	0.000000
+AxleFriction    0.020000
+Grip            0.050000
+StaticFriction  3.000000
+KineticFriction 3.000000
+}          	; End Wheel
+
+WHEEL 1 { 	; Start Wheel
+ModelNum 	1
+Offset1  	0.000000 2.000000 10.000000
+Offset2  	40.000000 0.000000 21.000000
+IsPresent   	true
+IsPowered   	true
+IsTurnable  	true
+SteerRatio  	-0.085000
+EngineRatio 	30000.000000
+Radius      	15.000000
+Mass        	0.100000
+Gravity     	1000.000000
+MaxPos      	3.000000
+SkidWidth   	30.000000
+ToeIn       	0.000000
+;)Camber    	0.000000
+AxleFriction    0.020000
+Grip            0.050000
+StaticFriction  3.000000
+KineticFriction 3.000000
+}          	; End Wheel
+
+WHEEL 2 { 	; Start Wheel
+ModelNum 	1
+Offset1  	0.000000 2.000000 -32.500000
+Offset2  	-40.000000 0.000000 0.000000
+IsPresent   	true
+IsPowered   	true
+IsTurnable  	true
+SteerRatio  	0.070000
+EngineRatio 	30000.000000
+Radius      	15.000000
+Mass        	0.100000
+Gravity     	1000.000000
+MaxPos      	3.000000
+SkidWidth   	30.000000
+ToeIn       	0.000000
+;)Camber    	0.000000
+AxleFriction    0.020000
+Grip            0.050000
+StaticFriction  3.000000
+KineticFriction 3.000000
+}          	; End Wheel
+
+WHEEL 3 { 	; Start Wheel
+ModelNum 	1
+Offset1  	0.000000 2.000000 -11.500000
+Offset2  	40.000000 0.000000 -21.000000
+IsPresent   	true
+IsPowered   	true
+IsTurnable  	true
+SteerRatio  	0.070000
+EngineRatio 	30000.000000
+Radius      	15.000000
+Mass        	0.100000
+Gravity     	1000.000000
+MaxPos      	3.000000
+SkidWidth   	30.000000
+ToeIn       	0.000000
+;)Camber    	0.000000
+AxleFriction    0.020000
+Grip            0.050000
+StaticFriction  3.000000
+KineticFriction 3.000000
+}          	; End Wheel
+
+
+;====================
+; Car Spring details
+;====================
+
+SPRING 0 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	300.000000
+Damping     	5.000000
+Restitution 	-0.550000
+}           	; End Spring
+
+SPRING 1 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	300.000000
+Damping     	5.000000
+Restitution 	-0.550000
+}           	; End Spring
+
+SPRING 2 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	300.000000
+Damping     	5.000000
+Restitution 	-0.550000
+}           	; End Spring
+
+SPRING 3 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	300.000000
+Damping     	5.000000
+Restitution 	-0.550000
+}           	; End Spring
+
+
+;====================
+; Car Pin details
+;====================
+
+PIN 0 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+PIN 1 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+PIN 2 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+PIN 3 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+
+;====================
+; Car axle details
+;====================
+
+AXLE 0 {   	; Start Axle
+ModelNum    	9
+Offset      	0.000000 -11.000000 37.000000
+Length      	23.000000
+}           	; End axle
+
+AXLE 1 {   	; Start Axle
+ModelNum    	9
+Offset      	0.000000 -11.000000 37.000000
+Length      	23.000000
+}           	; End axle
+
+AXLE 2 {   	; Start Axle
+ModelNum    	9
+Offset      	0.000000 -12.000000 -38.000000
+Length      	23.000000
+}           	; End axle
+
+AXLE 3 {   	; Start Axle
+ModelNum    	9
+Offset      	0.000000 -12.000000 -38.000000
+Length      	23.000000
+}           	; End axle
+
+
+;====================
+; Car spinner details
+;====================
+
+SPINNER {   	; Start spinner
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Axis        	0.000000 1.000000 0.000000
+AngVel      	0.000000
+;)Type      	1 				; 1: Default rot, 2: Turn with steer, 4: Translate with speed, 6: 2 and 4
+;)Trans     	0.000000 3.000000 6.000000 	; Translation max
+;)TransVel  	0.001000 			; Velocity factor
+}           	; End Spinner
+
+
+;====================
+; Car Aerial details
+;====================
+
+AERIAL {    	; Start Aerial
+SecModelNum 	17
+TopModelNum 	18
+Offset      	-17.000000 -8.000000 -15.000000
+Direction   	0.000000 -1.000000 0.000000
+Length      	25.000000
+Stiffness   	2000.000000
+Damping     	5.500000
+}           	; End Aerial
+
+
+;====================
+; Car AI details
+;====================
+
+AI {        	; Start AI
+UnderThresh 	638.890015
+UnderRange  	3756.860107
+UnderFront  	504.429993
+UnderRear   	880.760010
+UnderMax    	0.950000
+OverThresh  	100.000000
+OverRange   	1167.560059
+OverMax     	1.000000
+OverAccThresh  	10.000000
+OverAccRange   	400.000000
+PickupBias     	3276
+BlockBias      	3276
+OvertakeBias   	16383
+Suspension     	0
+Aggression     	0
+}           	; End AI
+
+}
+

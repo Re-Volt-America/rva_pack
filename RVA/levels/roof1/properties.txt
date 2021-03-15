@@ -1,0 +1,114 @@
+
+MATERIAL {
+  ID              1                             ; Material to replace [0 - 26]
+  Name            "WET DEFAULT"                     ; Display name
+
+  Skid            true                          ; Skidmarks appear on material
+  Spark           false                          ; Material emits particles
+  OutOfBounds     false                         ; Not implemented
+  Corrugated      false                         ; Material is bumpy
+  Moves           false                         ; Moves like museum conveyors
+  Dusty           false                         ; Material emits dust
+
+  Roughness       1.000000                      ; Roughness of the material
+  Grip            1.000000                      ; Grip of the material
+  Hardness        1.000000                      ; Hardness of the material
+
+  SkidSound       6                             ; Sound when skidding
+  ScrapeSound     5                             ; Car body scrape [5:Normal]
+
+  SkidColor       200 200 200                   ; Color of the skidmarks
+  CorrugationType 0                             ; Type of bumpiness [0 - 7]
+  DustType        0                             ; Type of dust
+  Velocity        0.000000 0.000000 0.000000    ; Move cars
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SPARK {
+  ID              3                            ; Particle to replace [0 - 30]
+  Name            "SMOKE4"                      ; Display name
+
+  CollideWorld    false                         ; Collision with the world
+  CollideObject   true                          ; Collision with objects
+  CollideCam      false                         ; Collision with camera
+  HasTrail        false                         ; Particle has a trail
+  FieldAffect     false                         ; Is affected by force fields
+  Spins           true                          ; Particle spins
+  Grows           true                          ; Particle grows
+  Additive        true                          ; Draw particle additively
+  Horizontal      false                         ; Draw particle flat
+
+  Size            120.000000 120.000000             ; Size of the particle
+  UV              0.000000 0.000000             ; Top left UV coordinates
+  UVSize          0.250000 0.250000             ; Width and height of UV
+  TexturePage     47                            ; Texture page
+  Color           32 32 32                      ; Color of the particle
+
+  Mass            0.030000                      ; Mass of the particle
+  Resistance      0.000000                      ; Air resistance
+  Friction        0.000000                      ; Sliding friction
+  Restitution     0.000000                      ; Bounciness
+
+  LifeTime        1.500000                      ; Maximum life time
+  LifeTimeVar     0.100000                      ; Life time variance
+
+  SpinRate        0.000000                      ; Avg. spin rate (radians/sec)
+  SpinRateVar     6.000000                      ; Variation of the spin rate
+
+  SizeVar         2.000000                      ; Size variation
+  GrowRate        0.000000                      ; How quickly it grows
+  GrowRateVar     36.000000                     ; Grow variation
+
+  TrailType       -1                            ; ID of the trail to use
+}
+
+
+SPARK {
+  ID              8                             ; Particle to replace [0 - 30]
+  Name            "WATER2"                       ; Display name
+
+  CollideWorld    true                          ; Collision with the world
+  CollideObject   false                          ; Collision with objects
+  CollideCam      false                          ; Collision with camera
+  HasTrail        false                         ; Particle has a trail
+  FieldAffect     true                          ; Is affected by force fields
+  Spins           false                         ; Particle spins
+  Grows           false                         ; Particle grows
+  Additive        true                          ; Draw particle additively
+  Horizontal      false                         ; Draw particle flat
+
+  Size            25.000000 25.000000           ; Size of the particle
+  UV              0.750000 0.062500             ; Top left UV coordinates
+  UVSize          0.062500 0.062500             ; Width and height of UV
+  TexturePage     47                            ; Texture page
+  Color           154 188 211                     ; Color of the particle
+
+  Mass            5                      ; Mass of the particle
+  Resistance      0.001000                      ; Air resistance
+  Friction        0.800000                      ; Sliding friction
+  Restitution     0.200000                      ; Bounciness
+
+  LifeTime        0.200000                      ; Maximum life time
+  LifeTimeVar     0.100000                      ; Life time variance
+
+  SpinRate        0.000000                      ; Avg. spin rate (radians/sec)
+  SpinRateVar     0.000000                      ; Variation of the spin rate
+
+  SizeVar         0.000000                      ; Size variation
+  GrowRate        0.000000                      ; How quickly it grows
+  GrowRateVar     0.000000                      ; Grow variation
+
+  TrailType       -1                            ; ID of the trail to use
+}

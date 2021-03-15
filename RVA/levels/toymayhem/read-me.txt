@@ -1,0 +1,93 @@
+
+* Toy World Mayhem *
+
+* Small update 1 *
+
+**********
+*FRANCAIS*
+**********
+
+Retrouvez l'univers de Toy World !
+
+Attention, circuit difficile !
+
+Petite mise à jour 1 : un petit bug de visibox corrigé, surtout visible en mode reverse.
+
+********
+
+Auteur : Killer Wheels
+Outils : 3ds max, psp7, photoshop, makeitgood, rvtmod7, RV Exporteur pour 3ds
+Temps de réalisation : beaucoup trop longtemps
+
+
+********
+
+Le circuit est disponible en mode "Reverse", et il y a des caméras pour le "Replay".
+
+- pour jouer le circuit en inversé avec Re-Volt 1.1 ou antérieure à WolfR4 : tapez "TRACKER" à la place de votre nom,
+selectionnez un circuit original et appuyez sur la flèche du bas. Vous verrez apparaître le "(R)".
+Allez ensuite jusqu'au circuit que vous desirez jouer en mode "Reverse".
+
+********
+
+Merci à : SebR et DC.all pour leurs tests et retours
+Merci à tous ceux qui ont et qui continuent de jouer, de créer et d'aider dans Re-Volt,
+merci aux auteurs des différents programmes utilisés !
+
+********
+
+Bon jeu ! :)
+
+
+*********
+*ENGLISH*
+*********
+
+Get back to the Toy World !
+
+Warning, hard track !
+
+Small update 1 : a little visibox glitch fixed, mostly visible in reverse mode.
+
+********
+
+Author : Killer Wheels
+Tools used : 3ds max, psp7, photoshop, makeitgood, rvtmod7, RV Exporter for 3ds
+Creation time : way too much
+
+
+********
+
+"Reverse" mode is available, and there are some cameras for the "Replay".
+
+- to play in reverse mode in Re-Volt 1.1 or any version earlier than WolfR4 : type "TRACKER" instead of your name,
+select an original track (stock track) and press the down arrow.
+You’ll see an “R” next to the track title. Now go to the desired track.
+
+********
+
+Thanks to :SebR and DC.all for their testing and feedback
+Thanks to all who played and who are still playing, for their creations and help within Re-volt community,
+thanks to every authors of used programs !
+
+********
+
+Have fun ! :)
+
+
+***********************
+Copyright / Permissions
+***********************
+
+This level is copyright 2016, by KW.
+
+You can use this level as a base to build additional levels, if you do so be cool
+by sending me back a link / screenshot / etc...
+Dont forget to check my website : http://www.nawakiwi.com/
+
+You are not allowed to commercially exploit this level, i.e. put it on a CD or any 
+other electronic medium that is sold for money without my explicit permission!
+
+You may distribute this level through any electronic network (internet (web/ftp), 
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.
+If you do so, please add a link to the original file !

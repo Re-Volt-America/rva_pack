@@ -1,0 +1,103 @@
+{
+  PICKUPS {
+    SpawnCount      99 0
+  }
+  MATERIAL {
+	ID				0
+	Name			"DEFAULT"
+	Skid			true
+	Spark			true
+	Corrugated		false
+	Dusty			false
+	Roughness		1
+	Grip			1
+	Hardness		1
+	SkidSound		6
+	ScrapeSound		5
+	SkidColor		200 200 200
+  }
+  MATERIAL {
+	ID				13
+	Name			"BUMPY"
+	Skid			true
+	Spark			true
+	Corrugated		true
+	Dusty			false
+	Roughness		0.9
+	Grip			0.9
+	Hardness		1
+	SkidSound		6
+	ScrapeSound		5
+	SkidColor		200 200 200
+	CorrugationType	2
+  }
+  MATERIAL {
+	ID				12
+	Name			"GRASS"
+	Skid			true
+	Spark			false
+	Corrugated		true
+	Dusty			true
+	Roughness		0.7
+	Grip			0.5
+	Hardness		0
+	SkidSound		7
+	ScrapeSound		5
+	SkidColor		170 230 170
+	CorrugationType	3
+	DustType		3
+  }
+  MATERIAL {
+	ID				1
+	Name			"GYM"
+	Skid			true
+	Spark			false
+	Corrugated		false
+	Dusty			false
+	Roughness		0.9
+	Grip			0.9
+	Hardness		1
+	SkidSound		6
+	ScrapeSound		5
+	SkidColor		200 200 200
+  }
+  MATERIAL {
+	ID				6
+	Name			"RUBBER"
+	Skid			true
+	Spark			false
+	Corrugated		false
+	Dusty			false
+	Roughness		1
+	Grip			0.8
+	Hardness		0.5
+	SkidSound		7
+	ScrapeSound		5
+	SkidColor		255 130 130
+  }
+  
+  CORRUGATION {
+	ID				3
+	Name			"BUMPY2"
+	Amplitude		1
+	Wavelength		40 40
+  }
+  CORRUGATION {
+	ID				6
+	Name			"BUMPY3"
+	Amplitude		1
+	Wavelength		80 80
+  }
+  
+  DUST {
+	ID				3
+	Name			"GRASS"
+	SparkType		6
+	ParticleChance	0.8
+	ParticleRandom	0.6
+	SmokeType		27
+	SmokeChance		0.4
+	SmokeRandom		0.6
+  }
+
+}

@@ -1,0 +1,8 @@
+from Top to Bottom
+
+-Ambient Occlusion: Overlay works most of the time.
+-Details
+-Trims: With this one you will need to use a 
+ blending mode so it's displayed correctly. Overlay works most of the time.
+-Shading: Overlay
+-Below these layers you can make your paintjob.

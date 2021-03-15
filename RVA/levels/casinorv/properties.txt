@@ -1,0 +1,260 @@
+{
+  PICKUPS {
+    SpawnCount      99 0
+  }
+  MATERIAL {
+	ID				0
+	Name			"DEFAULT"
+	Skid			true
+	Spark			true
+	Corrugated		false
+	Dusty			false
+	Roughness		1
+	Grip			1
+	Hardness		1
+	SkidSound		6
+	ScrapeSound		5
+	SkidColor		200 200 200
+  }
+  MATERIAL {
+	ID				13
+	Name			"BUMPY"
+	Skid			true
+	Spark			true
+	Corrugated		true
+	Dusty			false
+	Roughness		0.9
+	Grip			0.9
+	Hardness		1
+	SkidSound		6
+	ScrapeSound		5
+	SkidColor		200 200 200
+	CorrugationType	2
+  }
+  MATERIAL {
+	ID				3
+	Name			"WOOD"
+	Skid			true
+	Spark			false
+	Corrugated		false
+	Dusty			false
+	Roughness		0.8
+	Grip			0.8
+	Hardness		1
+	SkidSound		6
+	ScrapeSound		5
+	SkidColor		230 200 170
+  }
+  MATERIAL {
+	ID				12
+	Name			"GRASS"
+	Skid			true
+	Spark			false
+	Corrugated		true
+	Dusty			true
+	Roughness		0.7
+	Grip			0.5
+	Hardness		0
+	SkidSound		7
+	ScrapeSound		5
+	SkidColor		170 230 170
+	CorrugationType	3
+	DustType		3
+  }
+  MATERIAL {
+	ID				19
+	Name			"DIRT"
+	Skid			true
+	Spark			false
+	Corrugated		true
+	Dusty			true
+	Roughness		1
+	Grip			1
+	Hardness		0
+	SkidSound		7
+	ScrapeSound		5
+	SkidColor		150 100 70
+	CorrugationType	6
+	DustType		4
+  }
+  MATERIAL {
+	ID				1
+	Name			"GYM"
+	Skid			true
+	Spark			false
+	Corrugated		false
+	Dusty			false
+	Roughness		0.9
+	Grip			0.9
+	Hardness		1
+	SkidSound		6
+	ScrapeSound		5
+	SkidColor		200 200 200
+  }
+  MATERIAL {
+	ID				6
+	Name			"RUBBER"
+	Skid			true
+	Spark			false
+	Corrugated		false
+	Dusty			false
+	Roughness		1
+	Grip			0.8
+	Hardness		0.5
+	SkidSound		7
+	ScrapeSound		5
+	SkidColor		255 130 130
+  }
+  MATERIAL {
+	ID				10
+	Name			"ICE"
+	Skid			true
+	Spark			true
+	Corrugated		true
+	Dusty			false
+	Roughness		0.4
+	Grip			0.4
+	Hardness		0.2
+	SkidSound		7
+	ScrapeSound		5
+	SkidColor		230 230 255
+	CorrugationType	2
+  }
+  MATERIAL {
+	ID				21
+	Name			"ICE2"
+	Skid			true
+	Spark			true
+	Corrugated		false
+	Dusty			false
+	Roughness		1
+	Grip			1
+	Hardness		1
+	SkidSound		7
+	ScrapeSound		5
+	SkidColor		230 230 255
+  }
+  MATERIAL {
+	ID				9
+	Name			"MILK"
+	Skid			true
+	Spark			false
+	Dusty			true
+	Roughness		0.4
+	Grip			0.4
+	Hardness		0.2
+	SkidSound		7
+	ScrapeSound		5
+	SkidColor		250 250 250
+	DustType		2
+  }
+  
+  CORRUGATION {
+	ID				2
+	Name			"BUMPY1"
+	Amplitude		1
+	Wavelength		20 20
+  }
+  CORRUGATION {
+	ID				3
+	Name			"BUMPY2"
+	Amplitude		1
+	Wavelength		40 40
+  }
+  CORRUGATION {
+	ID				6
+	Name			"BUMPY3"
+	Amplitude		1
+	Wavelength		80 80
+  }
+  
+  DUST {
+	ID				2
+	Name			"MILK"
+	SparkType		30
+	ParticleChance	0.5
+	ParticleRandom	0.5
+	SmokeType		24
+	SmokeChance		0.5
+	SmokeRandom		0.5
+  }
+  DUST {
+	ID				3
+	Name			"GRASS"
+	SparkType		6
+	ParticleChance	0.8
+	ParticleRandom	0.6
+	SmokeType		27
+	SmokeChance		0.4
+	SmokeRandom		0.6
+  }
+  DUST {
+	ID				4
+	Name			"DIRT"
+	SparkType		9
+	ParticleChance	0.4
+	ParticleRandom	0.8
+	SmokeType		28
+	SmokeChance		0.2
+	SmokeRandom		0.8
+  }
+  
+  SPARK {
+	ID				5
+	Name			"STEAM"
+	CollideWorld	true
+	CollideObject	false
+	CollideCam		false
+	HasTrail		false
+	FieldAffect		false
+	Spins			true
+	Grows			false
+	Additive		true
+	Horizontal		false
+	Size			3000 3000
+	UV				0 0
+	UVSize			0.25 0.25
+	TexturePage		47
+	Color			2 2 2
+	Mass			0.0219
+	Resistance		0.0015
+	Friction		0.001
+	Restitution		0
+	LifeTime		5
+	LifeTimeVar		0
+	SpinRate		0.25
+	SpinRateVar		1
+	SizeVar			2
+	GrowRate		120
+	GrowRateVar		20
+  }
+  SPARK {
+	ID				24
+	Name			"MILK"
+	CollideWorld	false
+	CollideObject	false
+	CollideCam		false
+	HasTrail		false
+	FieldAffect		false
+	Spins			true
+	Grows			true
+	Additive		true
+	Horizontal		false
+	Size			30 30
+	UV				0 0.5
+	UVSize			0.25 0.25
+	TexturePage		47
+	Color			80 80 80
+	Mass			0.05
+	Resistance		0.002
+	Friction		0
+	Restitution		0
+	LifeTime		0.3
+	LifeTimeVar		0
+	SpinRate		80
+	SpinRateVar		10
+	SizeVar			10
+	GrowRate		0
+	GrowRateVar		36
+  }
+}

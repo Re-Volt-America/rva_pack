@@ -1,0 +1,22 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME		'Market Mayhem'	;The name of the level as seen in-game
+DIFFICULTY		2
+STARTPOS	0 0 -10000		;Start position of the car
+STARTPOSREV     0 0 -10900    ;Start position of the car
+STARTROT	-1		;Start rotation of the car (0 - 1)
+STARTROTREV     0.5            ;Start rotation of the car (0 - 1)
+CHALLENGE	0 31 600
+CHALLENGEREV	1 50 000
+FARCLIP		18000		;Far clipping distance (draw distance)
+FOGSTART	16000		;Fog start (slightly less than FARCLIP)
+FOGCOLOR	72 62 50		;Fog and background color
+VERTFOGSTART	0		;Vertical fog start (as in rooftops)
+VERTFOGEND	0		;Vertical fog end (as in rooftops)
+WORLDRGBPER     100             ;RGB percent of original world gouraud
+MODELRGBPER	60		;RGB percent of original model gouraud
+MIRRORS		0 0.7 0 128	;Type - mix - intensity start - distance
+;MP3		'Little Toy Carz.mp3'
+REDBOOK 	4 9
