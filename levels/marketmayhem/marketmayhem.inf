@@ -8,8 +8,8 @@ STARTPOS	0 0 -10000		;Start position of the car
 STARTPOSREV     0 0 -10900    ;Start position of the car
 STARTROT	-1		;Start rotation of the car (0 - 1)
 STARTROTREV     0.5            ;Start rotation of the car (0 - 1)
-CHALLENGE	0 31 600
-CHALLENGEREV	1 50 000
+CHALLENGE	0 31 850
+CHALLENGEREV	0 31 670
 FARCLIP		18000		;Far clipping distance (draw distance)
 FOGSTART	16000		;Fog start (slightly less than FARCLIP)
 FOGCOLOR	72 62 50		;Fog and background color
