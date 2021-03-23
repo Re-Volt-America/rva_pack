@@ -24,7 +24,7 @@ either creating a `default.txt` within said location. In order to include the pa
 
 ```
 ;default
-rva
+RVA
 ;local *
 ```
 
