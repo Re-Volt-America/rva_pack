@@ -28,6 +28,8 @@ RVA
 ;local *
 ```
 
+*Note: If you're on a Linux distro you may need to lowercase the name for the pack to `rva`, and so its reference written in `default.txt`*
+
 ## Downloading
 
 Latest compressed tar: <a href="https://github.com/Re-Volt-America/RVA/releases/download/v1.0/RVA.tar">Release v1.0</a>
