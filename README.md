@@ -20,11 +20,11 @@ RVA/
 ```
 
 Then, the RVA pack can be dropped into your Re-Volt installation's `packs/` directory, and loaded in by
-either editing `default.txt` or `sample.txt` within said location as indicated below.
+either creating a `default.txt` within said location. In order to include the pack, simply write the following in it:
 
 ```
 ;default
-RVA
+rva
 ;local *
 ```
 
