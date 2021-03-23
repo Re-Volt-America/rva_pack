@@ -9,11 +9,11 @@
 ## Introduction
 
 Each of the folders in this repository contain the files for the content used by the Re-Volt America community, 
-and they are to be kept within a single folder, `RVA/` in the example beneath. This folder we refer to as the
+and they are to be kept within a single folder, `rva/` in the example beneath. This folder we refer to as the
 RVA Pack.
 
 ```
-RVA/
+rva/
 ├── cars/
 ├── levels/
 └── gfx/
@@ -24,11 +24,9 @@ either creating a `default.txt` within said location. In order to include the pa
 
 ```
 ;default
-RVA
+rva
 ;local *
 ```
-
-*Note: If you're on a Linux distro you may need to lowercase the name for the pack to `rva`, and so its reference written in `default.txt`*
 
 ## Downloading
 
