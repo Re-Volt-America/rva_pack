@@ -30,4 +30,6 @@ rva
 
 ## Downloading
 
-Latest Release: <a href="https://github.com/Re-Volt-America/rva/releases/download/1.1/rva.zip">v1.1</a>
+Latest Release: <a href="https://github.com/Re-Volt-America/rva/releases/tag/1.1">v1.1</a>
+  * [rva.zip](https://github.com/Re-Volt-America/rva/releases/download/1.1/rva.zip): Full Pack Download.
+  * [pack-update](https://github.com/Re-Volt-America/rva/releases/download/1.1/pack-update.zip): Update Download.
