@@ -30,4 +30,4 @@ rva
 
 ## Downloading
 
-Latest compressed tar: <a href="https://github.com/Re-Volt-America/RVA/releases/download/v1.0/RVA.tar">Release v1.0</a>
+Latest Release: <a href="https://github.com/Re-Volt-America/rva/releases/download/1.1/rva.zip">Release v1.1</a>
