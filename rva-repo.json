@@ -1,9 +1,9 @@
 {
     "name": "RVA Season 2020/21 Pack",
-    "version": 21.0325,
+    "version": 21.0323,
     "packages": 
     {
-        "rva_pack": 
+        "rva": 
         {
             "description": "Re-Volt America's content used at its official sessions",
             "version": 1.1000,
