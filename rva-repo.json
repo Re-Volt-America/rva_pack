@@ -9,21 +9,5 @@
             "version": 1.1000,
             "url": "https://github.com/Re-Volt-America/rva/releases/download/1.1/rva.zip"
         }
-    },
-
-    "events": 
-    {
-        "rva-lobby": 
-        {
-            "title": "Semi-Pro - Day 10",
-            "date": "26-03-2021 01:50",
-            "hosts": 
-            {
-                "Gforce": "187.75.55.183"
-            },
-            "category": "tourney",
-            "mode": "race",
-            "class": "semi-pro"
-        }
     }
 }
