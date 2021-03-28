@@ -1,23 +1,13 @@
 {
     "name": "RVA Season 2020/21 Pack",
     "version": 21.0323,
-    "packages": {
-        "rva_pack": {
+    "packages": 
+    {
+        "rva": 
+        {
             "description": "Re-Volt America's content used at its official sessions",
-            "version": 1.1,
+            "version": 1.1000,
             "url": "https://github.com/Re-Volt-America/rva/releases/download/1.1/rva.zip"
-        }
-    },
-    "events": {
-        "event-01": {
-            "title": "Semi-Pro - Day 8",
-            "date": "23-03-2021 01:50",
-            "hosts": {
-                "Gforce": "187.75.55.183"
-            },
-            "category": "tourney",
-            "mode": "race",
-            "class": "semi-pro"
         }
     }
 }
