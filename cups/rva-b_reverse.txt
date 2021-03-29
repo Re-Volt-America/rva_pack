@@ -1,17 +1,19 @@
 Name        "RVA Cup B-side [R]"
 Difficulty  4
-Obtain 	    0
+Obtain      0
 
 NumCars     12	; Number of cars, between [4 - 16]
 NumTries    3	; Number of retry attempts
 
+;Classes    Defines the CPU cars for each class, in the following order:
+;           rookie,amateur,advanced,semi-pro,pro,super
 Classes     0,0,0,0,11,0
 Points      20,16,12,10,8,8,6,4,2,2,1,1
 
 STAGE 0     market1      3 false true
 STAGE 1     schoolslite  3 false true
 STAGE 2     muse2        3 false true
-STAGE 3     RVT          3 false true
+STAGE 3     RVT          2 false true
 STAGE 4     jailhouse    3 false true
 STAGE 5     roof         3 false true
 STAGE 6     aquavoltredux 3 false true
