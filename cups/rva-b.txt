@@ -5,6 +5,8 @@ Obtain 	    0
 NumCars     12	; Number of cars, between [4 - 16]
 NumTries    3	; Number of retry attempts
 
+;Classes    Defines the CPU cars for each class, in the following order:
+;           rookie,amateur,advanced,semi-pro,pro,super
 Classes     0,0,0,0,11,0
 Points      20,16,12,10,8,8,6,4,2,2,1,1
 
