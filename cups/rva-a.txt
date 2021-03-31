@@ -1,0 +1,68 @@
+Name        "RVA Cup A-side"
+Difficulty  4
+Obtain 	    0
+
+NumCars     12	; Number of cars, between [4 - 16]
+NumTries    3	; Number of retry attempts
+
+Classes     0,0,0,0,11,0
+Points      20,16,12,10,8,8,6,4,2,2,1,1
+
+
+STAGE 0     toylite      3 false false
+STAGE 1     casinorv     3 false false
+STAGE 2     toy2         3 false false
+STAGE 3     marketmayhem 3 false false
+STAGE 4     wild_west1   3 false false
+STAGE 5     roof1        3 false false
+STAGE 6     "!Metrovolt" 3 false false
+STAGE 7     muse1        3 false false
+STAGE 8     helios-lunar 3 false false
+STAGE 9     "!petrol"    3 false false
+; 
+; 
+; ====
+; Name
+; ====
+; Set the name of your cup, it must be written between quotes
+; 
+; ==========
+; Difficulty
+; ==========
+; Difficulty shown when you choose a cup, the value is tied up with Obtain level
+; (0:Unknown, 1:Easy, 2:Normal, 3:Hard, 4:Extreme)
+;
+; ============
+; Obtain level
+; ============
+; -1:Never
+; 0: Default, is already unlocked like Bronze Cup
+; 1: Unlock by winning Championship in the appropriate tier
+; 2: Unlock by finding Practice mode stars in the appropriate tier
+; 3: Unlock by beating Time Trial challenges in the appropriate tier.
+; 4: Unlock by winning Single Races in the appropriate tier.
+; 5: Unlock by collecting all stars in Stunt Arena.
+;
+; ==================
+; Classes and Points
+; ==================
+; Classes are the number of CPU cars picked from each rating:
+; (Rookie,Amateur,Advanced,Semi-pro,Pro,Super-pro)
+; **The sum of CPU cars for each class must be equal to 'number of cars minus one'.
+;   and every position must have an score assigned
+; **For example:
+; 	NumCars	   10
+;       Classes    0,0,0,2,5,2
+;	Points     10,9,8,7,6,5,4,3,2,1
+; 
+; ======
+; Stages
+; ======
+; Max amount of tracks in a custom cup is 16 [STAGE 0 - STAGE 15]
+; Track name refers to its folder name (e.g., nhood1, fdt8mtvf, hcampcal),
+; if folder name has a space then write between quotes (e.g., "felling yard")
+; Mirrored and Reversed values are filled with true or false
+; **For example:
+;     <<STAGE 00    level_folder laps mirrored reversed>>
+;       STAGE 00    nhood1 3 false true
+; 
