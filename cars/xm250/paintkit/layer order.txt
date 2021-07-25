@@ -1,8 +1,16 @@
 from Top to Bottom
 
 -Ambient Occlusion: Overlay works most of the time.
--Details
--Trims: With this one you will need to use a 
- blending mode so it's displayed correctly. Overlay works most of the time.
+
+-Details: Default blending mode.
+-Trims: With this one you will need to use overlay or smth.
+
 -Shading: Overlay
--Below these layers you can make your paintjob.
+-Shading2: You can just color this layer whatever color you want, don't leave it white please
+-Shading3: This can be used instead of the original shading, it's the improved one.
+
+-Lightmap: This is a depth layer. Use it above the paint layer with low opacity 
+on a blending mode of your choice, it is not shading.
+
+-Below these layers you can make your paintjob, you can use the paint.png
+included as an easy mask or whatever.

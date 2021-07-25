@@ -66,7 +66,7 @@ MaxRevs    	0.500000
 
 SteerRate  	3.500000 			
 SteerMod   	0.400000 			
-EngineRate 	4.500000 			
+EngineRate 	4.000000 			
 TopSpeed   	40.00000 			
 DownForceMod	2.000000 			
 CoM        	0.000000 0.000000 -12.500000 		
@@ -79,7 +79,7 @@ Weapon     	0.000000 -32.000000 64.000000
 BODY {		; Start Body
 ModelNum   	0 			
 Offset     	0, 0, 0 		
-Mass       	1.450000
+Mass       	1.500000
 Inertia    	1400.000000 0.000000 0.000000
            	0.000000 2200.000000 0.000000
            	0.000000 0.000000 700.000000
@@ -105,7 +105,7 @@ IsPresent   	TRUE
 IsPowered   	TRUE
 IsTurnable  	TRUE
 SteerRatio  	-0.450000
-EngineRatio 	17000.000000
+EngineRatio 	16500.000000
 Radius      	11.350000
 Mass        	0.150000
 Gravity     	2200.000000
@@ -126,7 +126,7 @@ IsPresent   	TRUE
 IsPowered   	TRUE
 IsTurnable  	TRUE
 SteerRatio  	-0.4500000
-EngineRatio 	17000.000000
+EngineRatio 	16500.000000
 Radius      	11.350000
 Mass        	0.150000
 Gravity     	2200.000000
@@ -147,7 +147,7 @@ IsPresent   	TRUE
 IsPowered   	TRUE
 IsTurnable  	TRUE
 SteerRatio  	0.000002
-EngineRatio 	17000.000000
+EngineRatio 	16500.000000
 Radius      	11.700000
 Mass        	0.150000
 Gravity     	2200.000000
@@ -168,7 +168,7 @@ IsPresent   	TRUE
 IsPowered   	TRUE
 IsTurnable  	TRUE
 SteerRatio  	0.000002
-EngineRatio 	17000.000000
+EngineRatio 	16500.000000
 Radius      	11.700000
 Mass        	0.150000
 Gravity     	2200.000000
@@ -300,7 +300,7 @@ AngVel      	0.000000
 AERIAL {    	; Start Aerial
 SecModelNum 	17
 TopModelNum 	18
-Offset      	-21.500000 -23.500000 40.000000
+Offset      	-21.500000 -20.000000 40.000000
 Direction   	0.000000 -1.000000 0.000000
 Length      	14.000000
 Stiffness   	2000.000000

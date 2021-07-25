@@ -2,7 +2,7 @@
 
 ;============================================================
 ;============================================================
-; XM250
+; XM250: PARAMS BY BURNER94 AND NORFAIR.
 ;============================================================
 ;============================================================
 Name       	"XM250"
@@ -19,8 +19,8 @@ Selectable 	true
 Class      	0 			; Engine type (0=Elec, 1=Glow, 2=Other)
 Obtain     	0 			; Obtain method
 Rating     	5 			; Skill level (rookie, amateur, ...)
-TopEnd     	3902.762695 		; Actual top speed (mph) for frontend bars
-Acc        	6.335728 		; Acceleration rating (empirical)
+TopEnd     	3948.546875 		; Actual top speed (mph) for frontend bars
+Acc        	6.240164 		; Acceleration rating (empirical)
 Weight     	1.400000 		; Scaled weight (for frontend bars)
 Trans      	0 			; Transmission type (0=4WD, 1=FWD, 2=RWD)
 MaxRevs    	0.500000 		; Max Revs (for rev counter, deprecated...)
@@ -63,10 +63,10 @@ EnvRGB 		200 200 200
 ; Handling related stuff
 ;====================
 
-SteerRate  	2.400000 			; Rate at which steer angle approaches value from input
+SteerRate  	2.380000 			; Rate at which steer angle approaches value from input
 SteerMod   	0.400000 			;
 EngineRate 	4.500000 			; Rate at which Engine voltage approaches set value
-TopSpeed   	44.200001 			; Car's theoretical top speed (not including friction...)
+TopSpeed   	44.70050 			; Car's theoretical top speed (not including friction...)
 DownForceMod	2.000000 			; Down force modifier when car on floor
 CoM        	0.000000 4.500000 5.000000 	; Centre of mass relative to model centre
 Weapon     	0.000000 -32.000000 64.000000 	; Weapon generation offset
@@ -121,7 +121,7 @@ IsPresent   	true
 IsPowered   	true
 IsTurnable  	true
 SteerRatio  	-0.400000
-EngineRatio 	13000.000000
+EngineRatio 	13200.000000
 Radius      	10.500000
 Mass        	0.150000
 Gravity     	2200.000000
@@ -143,7 +143,7 @@ IsPresent   	true
 IsPowered   	true
 IsTurnable  	true
 SteerRatio  	-0.400000
-EngineRatio 	13000.000000
+EngineRatio 	13200.000000
 Radius      	10.500000
 Mass        	0.150000
 Gravity     	2200.000000
@@ -165,7 +165,7 @@ IsPresent   	true
 IsPowered   	true
 IsTurnable  	false
 SteerRatio  	0.100000
-EngineRatio 	13000.000000
+EngineRatio 	13200.000000
 Radius      	10.500000
 Mass        	0.150000
 Gravity     	2200.000000
@@ -187,7 +187,7 @@ IsPresent   	true
 IsPowered   	true
 IsTurnable  	false
 SteerRatio  	0.100000
-EngineRatio 	13000.000000
+EngineRatio 	13200.000000
 Radius      	10.500000
 Mass        	0.150000
 Gravity     	2200.000000

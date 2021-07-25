@@ -19,12 +19,11 @@ Selectable 	true
 Class      	1 			; Engine type (0=Elec, 1=Glow, 2=Other)
 Obtain     	0 			; Obtain method
 Rating     	3 			; Skill level (rookie, amateur, ...)
-TopEnd     	3716.599609 			; Actual top speed (mph) for frontend bars
-Acc        	6.093892 			; Acceleration rating (empirical)
-Weight     	2.000000 			; Scaled weight (for frontend bars)
+TopEnd     	3589.048584 		; Actual top speed (mph) for frontend bars
+Acc        	6.101600 		; Acceleration rating (empirical)
+Weight     	2.000000 		; Scaled weight (for frontend bars)
 Trans      	0 			; Transmission type (0=4WD, 1=FWD, 2=RWD)
-MaxRevs    	0.550000 			; Max Revs (for rev counter, deprecated...)
-;)TCARBOX  	"cars/tribute2/carbox.bmp" 		; Carbox texture
+MaxRevs    	0.550000 		; Max Revs (for rev counter, deprecated...)
 
 ;====================
 ; Model Filenames
@@ -49,13 +48,16 @@ MODEL 	15 	"NONE"
 MODEL 	16 	"NONE"
 MODEL 	17 	"cars/misc/Aerial.m"
 MODEL 	18 	"cars/misc/AerialT.m"
-COLL 	"cars/tribute2/hull.hul"
-SFXENGINE 	"NONE"
-TPAGE 	"cars/tribute2/car.bmp"
-;)TSHADOW 	"cars/tribute2/shadow.bmp"
-;)SHADOWINDEX 	-1
-;)SHADOWTABLE -87.0 87.0 90.0 -83.0 -2 	; Left, right, front, back, height (relative to model center)
-EnvRGB 	200 200 200
+COLL 		"cars/tribute2/hull.hul"
+TPAGE 		"cars/tribute2/car.bmp"
+;)TCARBOX 	"cars/tribute2/carbox.bmp" 			; Carbox texture
+;)TSHADOW 	"cars/tribute2/shadow.bmp" 			; Shadow texture
+;)SHADOWINDEX 	-1 							; Use a default shadow (0 to 27 or -1)
+;)SHADOWTABLE 	-87.000000 87.000000 90.000000 -83.000000 -2.000000 	; Left, right, front, back, height (relative to model center)
+;)SFXENGINE 	"NONE"
+;)SFXSERVO 	"NONE"
+;)SFXHONK 	"NONE"
+EnvRGB 		200 200 200
 
 ;====================
 ; Handling related stuff
@@ -63,14 +65,28 @@ EnvRGB 	200 200 200
 
 SteerRate  	3.000000 			; Rate at which steer angle approaches value from input
 SteerMod   	0.400000 			;
-EngineRate 	4.500000 			; Rate at which Engine voltage approaches set value
-TopSpeed   	44.000000 			; Car's theoretical top speed (not including friction...)
+EngineRate 	3.500000 			; Rate at which Engine voltage approaches set value
+TopSpeed   	42.599998 			; Car's theoretical top speed (not including friction...)
 DownForceMod	2.000000 			; Down force modifier when car on floor
-CoM        	0.000000 3.200000 -4.750000 		; Centre of mass relative to model centre
-Weapon     	0.000000 -32.000000 64.000000 		; Weapon generation offset
-;)Flippable	false 			; Rotor car effect
-;)Flying   	false 			; Flying like the UFO car
-;)ClothFx  	false 			; Mystery car cloth effect
+CoM        	0.000000 3.200000 -4.750000 	; Centre of mass relative to model centre
+Weapon     	0.000000 -32.000000 64.000000 	; Weapon generation offset
+;)Flippable	false 		; Rotor car effect
+;)Flying   	false 		; Flying like the UFO car
+;)ClothFx  	false 		; Mystery car cloth effect
+
+;====================
+; Camera details
+;====================
+
+;)CAMATTACHED {	; Start Camera
+;)HoodOffset   	0.000000 0.000000 0.000000 	; Offset from model center
+;)HoodLook     	0.050000 			; Look angle (-0.25 to 0.25, 0.0 - straight ahead)
+;)RearOffset   	0.000000 0.000000 0.000000
+;)RearLook     	0.050000
+;)FixedOffset  	true 				; Is offset fixed or moving
+;)FixedLook    	true 				; Is look fixed or moving
+;)UseDefault   	true 				; Use default offsets (computed in game)
+;)}            	; End Camera
 
 ;====================
 ; Car Body details
@@ -85,11 +101,11 @@ Inertia    	1675.000000 0.000000 0.000000
            	0.000000 0.000000 850.000000
 Gravity    	2200 			; No longer used
 Hardness   	0.000000
-Resistance 	0.001000 			; Linear air resistance
-AngRes     	0.001000 			; Angular air resistance
-ResMod     	25.000000 			; AngRes scale when in air
-Grip       	0.010000 			; Converts downforce to friction value
-StaticFriction 0.800000
+Resistance 	0.001000 		; Linear air resistance
+AngRes     	0.001000 		; Angular air resistance
+ResMod     	25.000000 		; AngRes scale when in air
+Grip       	0.010000 		; Converts downforce to friction value
+StaticFriction 	0.800000
 KineticFriction 0.400000
 }     		; End Body
 
@@ -105,7 +121,7 @@ IsPresent   	true
 IsPowered   	true
 IsTurnable  	true
 SteerRatio  	-0.250000
-EngineRatio 	30000.000000
+EngineRatio 	28000.000000
 Radius      	11.000000
 Mass        	0.170000
 Gravity     	2200.000000
@@ -113,10 +129,10 @@ MaxPos      	3.750000
 SkidWidth   	10.000000
 ToeIn       	0.000000
 ;)Camber    	0.000000
-AxleFriction    	0.020000
-Grip            	0.023000
-StaticFriction  	1.380000
-KineticFriction 	1.200000
+AxleFriction    0.020000
+Grip            0.023000
+StaticFriction  1.380000
+KineticFriction 1.200000
 }          	; End Wheel
 
 WHEEL 1 { 	; Start Wheel
@@ -127,7 +143,7 @@ IsPresent   	true
 IsPowered   	true
 IsTurnable  	true
 SteerRatio  	-0.250000
-EngineRatio 	30000.000000
+EngineRatio 	28000.000000
 Radius      	11.000000
 Mass        	0.170000
 Gravity     	2200.000000
@@ -135,10 +151,10 @@ MaxPos      	3.750000
 SkidWidth   	10.000000
 ToeIn       	0.000000
 ;)Camber    	0.000000
-AxleFriction    	0.020000
-Grip            	0.023000
-StaticFriction  	1.380000
-KineticFriction 	1.200000
+AxleFriction    0.020000
+Grip            0.023000
+StaticFriction  1.380000
+KineticFriction 1.200000
 }          	; End Wheel
 
 WHEEL 2 { 	; Start Wheel
@@ -157,10 +173,10 @@ MaxPos      	3.750000
 SkidWidth   	10.000000
 ToeIn       	0.000000
 ;)Camber    	0.000000
-AxleFriction    	0.020000
-Grip            	0.023000
-StaticFriction  	1.480000
-KineticFriction 	1.400000
+AxleFriction    0.020000
+Grip            0.023000
+StaticFriction  1.480000
+KineticFriction 1.400000
 }          	; End Wheel
 
 WHEEL 3 { 	; Start Wheel
@@ -179,10 +195,10 @@ MaxPos      	3.750000
 SkidWidth   	10.000000
 ToeIn       	0.000000
 ;)Camber    	0.000000
-AxleFriction    	0.020000
-Grip            	0.023000
-StaticFriction  	1.480000
-KineticFriction 	1.400000
+AxleFriction    0.020000
+Grip            0.023000
+StaticFriction  1.480000
+KineticFriction 1.400000
 }          	; End Wheel
 
 
@@ -294,8 +310,8 @@ ModelNum    	5
 Offset      	0.000000 -24.500000 -54.500000
 Axis        	0.000000 1.000000 0.000000
 AngVel      	0.000000
-;)Type      	1 			; 1: Default rot, 2: Turn with steer, 4: Translate with speed, 6: 2 and 4
-;)Trans     	0.000000 3.000000 6.000000 		; Translation max
+;)Type      	1 				; 1: Default rot, 2: Turn with steer, 4: Translate with speed, 6: 2 and 4
+;)Trans     	0.000000 3.000000 6.000000 	; Translation max
 ;)TransVel  	0.001000 			; Velocity factor
 }           	; End Spinner
 
@@ -319,7 +335,7 @@ Damping     	5.500000
 ; Car AI details
 ;====================
 
-AI {        	 ;Start AI
+AI {        	; Start AI
 UnderThresh 	530.960083
 UnderRange  	1390.939941
 UnderFront  	2228.502197

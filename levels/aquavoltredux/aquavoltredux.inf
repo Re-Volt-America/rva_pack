@@ -18,4 +18,5 @@ WORLDRGBPER     100             ;RGB percent of original world gouraud
 MODELRGBPER	50		;RGB percent of original model gouraud
 INSTANCERGBPER	50		;RGB percent of original instance gouraud
 MIRRORS		0 0 0 0		;Type - mix - intensity start - distance
+MUSIC		'music\io\toy'
 REDBOOK		1 3
