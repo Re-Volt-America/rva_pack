@@ -66,7 +66,7 @@ EnvRGB 		155 155 155
 SteerRate  	3.200000 			; Rate at which steer angle approaches value from input
 SteerMod   	0.800000 			;
 EngineRate 	3.500000 			; Rate at which Engine voltage approaches set value
-TopSpeed   	36.700000 			; Car's theoretical top speed (not including friction...)
+TopSpeed   	37.400000 			; Car's theoretical top speed (not including friction...)
 DownForceMod	2.000000 			; Down force modifier when car on floor
 CoM        	0.000000 -10.800000 2.500000 	; Centre of mass relative to model centre
 Weapon     	0.000000 -32.000000 64.000000 	; Weapon generation offset
@@ -96,8 +96,8 @@ BODY {		; Start Body
 ModelNum   	0 			; Model Number in above list
 Offset     	0.000000 0.000000 0.000000
 Mass       	1.100000
-Inertia    	1250.000000 0.000000 0.000000
-           	0.000000 1700.000000 0.000000
+Inertia    	1000.000000 0.000000 0.000000
+           	0.000000 950.000000 0.000000
            	0.000000 0.000000 650.000000
 Gravity    	2200 			; No longer used
 Hardness   	0.000000
@@ -130,7 +130,7 @@ SkidWidth   	9.000000
 ToeIn       	0.000000
 ;)Camber    	0.000000
 AxleFriction    0.050000
-Grip            0.012000
+Grip            0.011000
 StaticFriction  1.300000
 KineticFriction 1.500000
 }          	; End Wheel
@@ -152,7 +152,7 @@ SkidWidth   	9.000000
 ToeIn       	0.000000
 ;)Camber    	0.000000
 AxleFriction    0.040000
-Grip            0.012000
+Grip            0.011000
 StaticFriction  1.300000
 KineticFriction 1.500000
 }          	; End Wheel
