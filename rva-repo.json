@@ -1,13 +1,13 @@
 {
-    "name": "RVA Season 2020/21 Pack",
-    "version": 21.0323,
+    "name": "Re-Volt America's Official Content Pack",
+    "version": 1.2000,
     "packages": 
     {
         "rva": 
         {
-            "description": "Re-Volt America's content used at its official sessions",
-            "version": 1.1000,
-            "url": "https://github.com/Re-Volt-America/rva/releases/download/1.1/rva.zip"
+            "description": "Re-Volt America's Centralised Content Pack",
+            "version": 1.2000,
+            "url": "https://distribute.revolt-america.com/rva/rva-latest.zip"
         }
     }
 }
