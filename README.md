@@ -30,7 +30,7 @@ rva
 
 ## Downloading
 
-Latest Release: <a href="https://github.com/Re-Volt-America/rva/releases/tag/1.2">v1.2</a>
+Latest Release: 1.2
   * [rva.zip](https://distribute.revolt-america.com/rva/rva-latest.zip): Full Pack Download.
   * [RVGL Launcher](https://re-volt.gitlab.io/rvgl-launcher/#download) Repository: `https://distribute.revolt-america.com/packages.json`
     * Our centralised content pack will be listed under the *Packs* tab with the name "rva". Simply check-mark it and install.
