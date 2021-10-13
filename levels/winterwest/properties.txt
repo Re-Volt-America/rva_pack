@@ -1,0 +1,194 @@
+{
+	MATERIAL {
+	  ID              3                         
+	  Name            "Wood Surface"                    
+	  Color           119 76 35                 
+	  Skid            true                     
+	  Spark           false                     
+	  OutOfBounds     false                     
+	  Corrugated      false                     
+	  Moves           false                     
+	  Dusty           false                     
+	  Roughness       0.8                
+	  Grip            0.8                 
+	  Hardness        0.3                
+	  DefaultSound    -1                        
+	  SkidSound       7                         
+	  ScrapeSound     5                         
+	  SkidColor       179 164 141                 
+	  CorrugationType 0                         
+	  DustType        0                         
+	  Velocity        0 0 0
+	}
+	MATERIAL {
+	  ID              4          
+	  Name            "Hay Surface"     
+	  Color           244 193 127
+	  Skid            false      
+	  Spark           true      
+	  OutOfBounds     false      
+	  Corrugated      false      
+	  Moves           false      
+	  Dusty           true       
+	  Roughness       1   
+	  Grip            1
+	  Hardness        0
+	  DefaultSound    -1         
+	  SkidSound       7          
+	  ScrapeSound     5            
+	  CorrugationType 0          
+	  DustType        2          
+	  Velocity        0 0 0
+	}
+	MATERIAL {
+	  ID              18         
+	  Name            "Snow Surface"    
+	  Color           135 99 73  
+	  Skid            true      
+	  Spark           true      
+	  OutOfBounds     false      
+	  Corrugated      true       
+	  Moves           false      
+	  Dusty           true       
+	  Roughness       1 
+	  Grip            1
+	  Hardness        0 
+	  DefaultSound    67         
+	  SkidSound       68         
+	  ScrapeSound     5          
+	  SkidColor       225 225 225
+	  CorrugationType 2          
+	  DustType        4          
+	  Velocity        0 0 0
+	}
+	MATERIAL {
+	  ID              22                        
+	  Name            "Ice Surface"                    
+	  Color           184 255 242               
+	  Skid            true                      
+	  Spark           true                      
+	  OutOfBounds     false                     
+	  Corrugated      false                     
+	  Moves           false                     
+	  Dusty           false                     
+	  Roughness       0.6                 
+	  Grip            0.6               
+	  Hardness        0.2            
+	  DefaultSound    -1                        
+	  SkidSound       69                         
+	  ScrapeSound     70                         
+	  SkidColor       202 204 213                 
+	  CorrugationType 0                         
+	  DustType        0                         
+	  Velocity        0 0 0
+	}
+	DUST {
+	  ID              2     
+	  Name            "Hay Dust"
+	  SparkType       5     
+	  ParticleChance  0.3
+	  ParticleRandom  0.1
+	  SmokeType       30    
+	  SmokeChance     0.3
+	  SmokeRandom     0.6
+	}
+	DUST {
+	  ID              4     
+	  Name            "Snow Dust"
+	  SparkType       9     
+	  ParticleChance  0.4
+	  ParticleRandom  0.8
+	  SmokeType       28    
+	  SmokeChance     0.2
+	  SmokeRandom     0.8
+	}
+	SPARK {
+	  ID              3
+	  Name            "Locomotive Steam"
+	  CollideWorld    false
+	  CollideObject   false
+	  CollideCam      false
+	  HasTrail        false
+	  FieldAffect     false
+	  Spins           true
+	  Grows           true
+	  Additive        true
+	  Horizontal      false
+	  Size            100 100
+	  UV              0 0
+	  UVSize          0.25 0.25
+	  TexturePage     47
+	  Color           10 10 10
+	  Mass            0.01
+	  Resistance      0.0001
+	  Friction        0.001
+	  Restitution     0.5
+	  LifeTime        4
+	  LifeTimeVar     0.5
+	  SpinRate        0
+	  SpinRateVar     0
+	  SizeVar         10
+	  GrowRate        400
+	  GrowRateVar     50
+	}
+	SPARK {
+	  ID              5              
+	  Name            "Hay Particles"         
+	  CollideWorld    true           
+	  CollideObject   true           
+	  CollideCam      false          
+	  HasTrail        false          
+	  FieldAffect     true           
+	  Spins           true           
+	  Grows           false          
+	  Additive        true          
+	  Horizontal      false          
+	  Size            8 8
+	  UV              0 0
+	  UVSize          1 1
+	  TexturePage     27    
+	  Color           150 150 150    
+	  Mass            0.1   
+	  Resistance      0.02    
+	  Friction        1    
+	  Restitution     0.5    
+	  LifeTime        2       
+	  LifeTimeVar     0.5
+	  SpinRate        0
+	  SpinRateVar     15    
+	  SizeVar         0
+	  GrowRate        0
+	  GrowRateVar     0    
+	  TrailType       -1             
+	}
+	SPARK {
+	  ID              9              
+	  Name            "Snow Particles"         
+	  CollideWorld    true           
+	  CollideObject   true           
+	  CollideCam      false          
+	  HasTrail        false          
+	  FieldAffect     true           
+	  Spins           false          
+	  Grows           false          
+	  Additive        true          
+	  Horizontal      false          
+	  Size            3.5 3.5
+	  UV              0 0
+	  UVSize          1 1
+	  TexturePage     26             
+	  Color           255 255 255    
+	  Mass            0.001       
+	  Resistance      0.001      
+	  Friction        0.01     
+	  Restitution     0.2      
+	  LifeTime        1      
+	  LifeTimeVar     0.2    
+	  SpinRate        0    
+	  SpinRateVar     25      
+	  SizeVar         0.2      
+	  GrowRate        0      
+	  GrowRateVar     0     
+	  TrailType       -1             
+	}
+}

@@ -1,0 +1,22 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME                   'Toy World EX'                       ;The name of the level as seen in-game
+STARTPOS               -250 0 1975                             ;Start position of the car (x, y, z)
+STARTPOSREV            -250 0 1740                            ;Start position of the car in reverse mode
+STARTROT               0.25                                  ;Start rotation of the car (0 - 1)
+STARTROTREV            -0.25                                  ;Start rotation of the car in reverse mode (0 - 1)
+FARCLIP		10000		;Far clipping distance (draw distance)
+FOGSTART	5500		;Fog start (slightly less than FARCLIP)
+FOGCOLOR	30 40 50	;Fog and background color
+VERTFOGSTART	0		;Vertical fog start (as in rooftops)
+VERTFOGEND	0		;Vertical fog end (as in rooftops)
+WORLDRGBPER     100             ;RGB percent of original world gouraud
+MODELRGBPER	50		;RGB percent of original model gouraud
+INSTANCERGBPER         80                                 ;RGB percent of original instance (decorations, etc.) gouraud
+MIRRORS	1 1 0.3 1000             ;Type - mix - intensity start - distance
+REDBOOK                4 9                                ;Redbook soundtrack if redbook folder is present. Two values, first and last track.
+ROCK                   0 0 0 0                            ;Rocking effect like on Toytanic.
+DIFFICULTY	4
+MP3		'levels/fdt2xtoy/Little Toy Carz.mp3'

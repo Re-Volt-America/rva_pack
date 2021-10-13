@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SPACESHIP FOR RVGL</title>
+  <meta name="description" content="RVGL SPACESHIP">
+  <meta name="author" content="javildesign">
+  <style>
+html {
+	margin: 0;
+  
+}
+body {
+  margin: 0;
+  min-height: 100%;
+background: rgb(25,25,25);
+background: linear-gradient(79deg, rgba(25,25,25,1) 0%, rgba(50,49,43,1) 100%);
+
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+#topLogo {
+	margin: 0 auto;
+     width: 384px;
+     position:relative; 
+}
+#container {
+	margin: 0 auto;
+  width: 1000px;
+  
+}
+.textAreaA {
+  width: 320px;
+  float: left;
+  background-color: rgba(255, 255, 255, .08);
+}
+.textAreaB {
+  width: 490px;
+  float: left;
+  background-color: rgba(255, 255, 255, .08);
+}
+.textAreaC {
+  width: 1000px;
+  float: left;
+  background-color: rgba(255, 255, 255, .08);
+  padding-right:10px;
+  padding-bottom: 7px;
+}
+
+p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  padding-left :8px;
+  padding-right :8px;
+  color:#bbb;
+}
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  padding-left:3px;
+  color:#111;
+  text-transform: uppercase;
+  margin: 2px;
+}
+
+
+.title {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  background: rgb(51,51,51);
+background: linear-gradient(90deg, rgba(116,92,56) 50%, rgba(116,92,56,0) 100%);  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.title2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+}
+.title3 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  background: rgb(51,51,51);
+background: linear-gradient(90deg, rgba(116,92,56) 50%, rgba(116,92,56,0) 100%);  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 6px;
+}
+#contentA {
+  margin-top: 25px;
+  display:-webkit-flex;
+display:flex;
+-webkit-justify-content:space-between;
+justify-content:space-between;
+margin-bottom: 20px;
+}
+#contentB {
+display:-webkit-flex;
+display:flex;
+-webkit-justify-content:space-between;
+justify-content:space-between;
+margin-bottom: 20px;
+}
+#contentC {
+display:-webkit-flex;
+display:flex;
+-webkit-justify-content:space-between;
+justify-content:space-between;
+margin-bottom: 20px;
+}
+.credits {
+  margin: 2px;
+  padding-left:12px;
+  font-style: italic;
+}
+a {
+  color:#eee;
+}
+.music {
+  margin-top: 12px;
+  padding-left: 5px;
+}
+.fixed {
+  color: #7cbe4f;
+  background-color: rgba(1, 1, 1, .4);
+  padding: 1px 5px 1px 5px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 11px;
+}
+
+.added {
+  color: #2998f6;
+  background-color: rgba(1, 1, 1, .4);
+  padding: 1px 5px 1px 5px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 11px;
+}
+#rvgl {
+  bottom:0;
+  right:0;
+  position: absolute;
+}
+.uploaded {
+  color: #eb8312;
+  background-color: rgba(1, 1, 1, .4);
+  padding: 1px 5px 1px 5px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 11px;
+}
+</style>
+</head>
+<body>
+  <div id="container">
+	<div id="topLogo">
+	<img src="custom/loadinga.bmp" width="128" height="128"><img src="custom/loadingb.bmp" width="128" height="128"><img src="custom/loadingc.bmp" width="128" height="128">
+  <div id="rvgl"><img src="html/rvgl.png"></div>
+</div>
+<div id="contentC">
+<div class="textAreaC">
+  <div class="title">Changelog</div>
+  <h2 class="title2">Dec 6, 2020</h2>
+  <p class="credits"><span class="added">Adjusted</span> corrected code custom_animations.txt (fixed indentation and brackets <span class="fixed">Huki</span>)</p>
+  <p class="credits"><span class="fixed">Fixed</span> worldcut applied for better visuals and performance (.w)</p>
+  <h2 class="title2">Dec 5, 2020</h2>
+  <p class="credits"><span class="fixed">Fixed</span> mainframe collision (.ncp)</p>
+  <p class="credits"><span class="fixed">Fixed</span> collision issue under the ramp (.ncp)</p>
+  
+
+</div>
+</div>
+<div id="contentA">
+<div class="textAreaA">
+  <div class="title">Software</div>
+	<p>Modelled in Blender 2.8/2.9.</p>
+  <p>Texture are all baked using Blender using a HDRI as a light source.</p>
+  <p>Substance Painter is used to finalize the textures.</p>
+  <p>Photoshop for some adjustments.</p>
+  <p>Worldcut by Jigebren</p>
+  <p>Blender 2.79 Plug-in for Revolt, created by Marv.</p>
+  <p>Blender 2.73 Plug-in for Revolt, created by Jigebren, for .fob (and custom animation), .taz, .vis placement.</p>
+<p>RVGL from <a href="https://re-volt.io/">re-volt.io/</a></p>
+</div>
+<div class="textAreaA">
+  <div class="title">Technical Details</div>
+  <p>Release Date: Dec 4, 2020</p>
+  <p>Track length: 512 meter</p>
+  <p>Total Triangles World (.w): 70.536</p>
+  <p>Total Triangles Collision (.ncp): 10.938</p>
+  <p>Reverse mode: Yes</p>
+  <p>Time-Trial: Yes</p>
+  <p>Lighting: Baked</p>
+</div>
+<div class="textAreaA">
+  <div class="title">Copyright and Download</div>
+  <p style="word-spacing: 5px; font-style: italic;">You can modify or add stuff to this track as much as you want but <b>do not re-upload a modified version to any resource without my permission.</b></p>
+  <p></p>
+  <p>The version on RevoltZone has compressed .jpg textures. Original .png version will be uploaded to <a href="http://revoltxtg.co.uk/">revoltXTG</a> soon.</p>
+  <p>Copyright © 2020 <a href="https://javildesign.com"><b>javildesign.com</b></a></p>
+</div>
+</div>
+<div id="contentC">
+<div class="textAreaC">
+  <div class="title">About Spaceship</div>
+  <p>Spaceship.. A project that I wanted to make to try out some technical ideas. <br>I wanted to create a long hallway with large windows to see the galaxy with it's stars and planets.</p>
+  <p>Then came the idea to make them rotate with day and night cycle. <br> In the early stage of development the planets had also a atmosphere layer with clouds that rotated around it,<br>
+  which worked and looked great, but unfortunately not on all gpu's, so I deleted that idea. <br> Also, I wanted to make a platform that raises on the start, and that worked out pretty well.</p>
+  <p></p>
+  <p>The track doesn't have any music track. It has serveral custom sounds like the ambient sound and the alarm with the warning broadcaster.<br>
+  Original this sound played in a continu loop. I decided to play the alarm with broadcoast sound effect just one time (01m27s) in the final version and <br>
+  play a small part of that (15s) 3 more times every minute after that. So if there is a 20 lap race there won't be endless alarms and warnings.</p>
+
+<p></p>
+<p>The big planet there is Mars. The other planet is Eris. Not realistic, but imagine that it's phobos or deimos..<br>
+Both planets have the same rotation speed, but from the spaceship perspective it seems that Mars is rotating faster.. it's not. <br>Eris is much much much closer to the spaceship and
+the spaceship is very far behind Mars. <br>That's why Mars disappears in the dark and Eris stays reflecting light for a while.</p>
+  <p>If you want to explore <b><i>spaceship</i></b> I recommend to do a timetrial or just a practice race to hear all the sound effects, <br>or just watch the planets do their cycles, it's cool!</p>
+  <p>Maybe not all the structures and elements are realistic, but look at this spaceship as a piece of art. <br>It doesn't tell a story, I leave that open for anyone's imagination.</p>
+  <p></p>
+  <p>Thanks for all the people who helped me finish this track! See the credits and help below for people who have contributed.<br> If I forgot to mention you or someone, please let me know!</p>
+
+</div>
+</div>
+<div id="contentB">
+<div class="textAreaB">
+  <div class="title">SoundTrack and SoundFX</div>
+  <p>Most sounds effect are from freesound.org which I mixed to create all the effects you hear.</p>
+  <p>The voice  is created using https://ttsmp3.com/</p>
+  <p>
+  
+  <h2>Spaceship SoundTrack</h2>
+  <div class="music"><audio controls>
+  <source src="custom/rattler.wav" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+<p>This audio fragment plays the ambient sound.</p>
+</div>
+
+<h2>Alarm / Broadcoaser Track</h2>
+  <div class="music"><audio controls>
+  <source src="custom/siren_loop.wav" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+<p>This audio fragment plays the alarm / broadcaster sound.</p>
+</div>
+
+<h2>Raising Platfrom</h2>
+  <div class="music"><audio controls>
+  <source src="custom/wind_loop.wav" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+<p>This audio fragment plays the raising platform sound.</p>
+</div>
+</div>
+<div class="textAreaB">
+  <div class="title3">Credits and Help</div>
+  <h2 class="title2">Ideas:</h2>
+  <p class="credits">Elekid</p>
+  <h2 class="title2">Testing:</h2>
+  <p class="credits">Elekid,  Jan Ainnir Mayen, MightyCucumber, Matsilagi, ThePotatoHead, Vas0sky</p>
+  <h2 class="title2">Problem solving:</h2>
+  <p class="credits">Thank you Huki, for all the help, again!</p>
+  <h2 class="title2">Planet and stars textures:</h2>
+ <p class="credits"><a href=">https://www.solarsystemscope.com/textures/">https://www.solarsystemscope.com/textures/</a></p>
+ <h2 class="title2">Materials:</h2>
+ <p class="credits"><a href="https://share.substance3d.com/">https://share.substance3d.com/</a></p>
+ <h2 class="title2">Speaking Voice</h2>
+<p class="credits"><a href="https://ttsmp3.com/">https://ttsmp3.com/</a></p>
+<h2 class="title2">Extra samples used in Soundtrack</h2>
+<p class="credits"><a href="https://freesound.org/people/Timbre/sounds/483639/">https://freesound.org/people/Timbre/sounds/483639/</a></p>
+<p class="credits"><a href="https://freesound.org/people/dobroide/sounds/29611/">https://freesound.org/people/dobroide/sounds/29611/</a></p>
+<p class="credits"><a href="https://freesound.org/people/Raille/sounds/353989/">https://freesound.org/people/Raille/sounds/353989/</a></p>
+<p class="credits"><a href="https://freesound.org/people/Erokia/sounds/503577/">https://freesound.org/people/Erokia/sounds/503577/</a></p>
+<p class="credits"><a href="https://freesound.org/people/SieuAmThanh/sounds/479871/">https://freesound.org/people/SieuAmThanh/sounds/479871/</a></p>
+<p class="credits"><a href="https://freesound.org/people/thatjeffcarter/sounds/106111/">https://freesound.org/people/thatjeffcarter/sounds/106111/</a></p>
+<p class="credits"><a href="https://freesound.org/people/kernschall/sounds/411105/">https://freesound.org/people/kernschall/sounds/411105/</a></p>
+<p class="credits"><a href="https://freesound.org/people/klankbeeld/sounds/343777/">https://freesound.org/people/klankbeeld/sounds/343777/</a></p>
+<p class="credits"><a href="https://freesound.org/people/bruno.auzet/sounds/525023/">https://freesound.org/people/bruno.auzet/sounds/525023/</a></p>
+<p class="credits"><a href="https://freesound.org/people/qubodup/sounds/192062/">https://freesound.org/people/qubodup/sounds/192062/</a></p>
+<p class="credits"><a href="https://freesound.org/people/Nathan_Lomeli/sounds/79185/">https://freesound.org/people/Nathan_Lomeli/sounds/79185/</a></p>
+<p class="credits"><a href="https://freesound.org/people/kernschall/sounds/411106/">https://freesound.org/people/kernschall/sounds/411106/</a></p>
+<p class="credits"><a href="https://freesound.org/people/Sheyvan/sounds/475234/">https://freesound.org/people/Sheyvan/sounds/475234/</a></p>
+<p class="credits"><a href="https://freesound.org/people/doug914/sounds/424363/">https://freesound.org/people/doug914/sounds/424363/</a></p>
+<p class="credits"><a href="https://freesound.org/people/crooner/sounds/223474/">https://freesound.org/people/crooner/sounds/223474/</a></p>
+<p class="credits"><a href="https://freesound.org/people/SavvahSjuhengof/sounds/324220/">https://freesound.org/people/SavvahSjuhengof/sounds/324220/</a></p>
+<p class="credits"><a href="https://freesound.org/people/jobro/sounds/244112/">https://freesound.org/people/jobro/sounds/244112/</a></p>
+<h2 class="title2">Broken glass</h2>
+<p class="credits"><a href="http://www.pngmart.com/image/181313">http://www.pngmart.com/image/181313</a></p>
+<h2 class="title2">HDRI for baking:</h2>
+<p class="credits"><a href="https://hdrihaven.com/">https://hdrihaven.com/</a></p>
+<p></p>
+
+
+</div>
+</div>
+
+</div>
+</body>
+</html>

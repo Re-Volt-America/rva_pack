@@ -1,0 +1,74 @@
+MATERIAL {
+  ID              4
+  Name            "MOSS"
+
+  Skid            true
+  Spark           true
+  OutOfBounds     false
+  Corrugated      false
+  Moves           false
+  Dusty           true
+
+  Roughness       0.500000
+  Grip            0.600000
+  Hardness        0.000000
+
+  SkidSound       7
+  ScrapeSound     7
+
+  SkidColor       160 190 50
+  CorrugationType 0
+  DustType        2
+  Velocity        0.000000 0.000000 0.000000
+}
+
+DUST {
+  ID              2
+  Name            "MOSS"
+
+  SparkType       3
+  ParticleChance  0.100000
+  ParticleRandom  0.400000
+
+  SmokeType       27
+  SmokeChance     0.200000
+  SmokeRandom     0.500000
+}
+
+SPARK {
+  ID              3
+  Name            "MOSS"
+
+  CollideWorld    true
+  CollideObject   true
+  CollideCam      true
+  HasTrail        false
+  FieldAffect     true
+  Spins           false
+  Grows           false
+  Additive        true
+  Horizontal      false
+
+  Size            2.300000 2.300000
+  UV              0.937500 0.000000
+  UVSize          0.062500 0.062500
+  TexturePage     47
+  Color           200 200 200
+
+  Mass            0.040000
+  Resistance      0.001000
+  Friction        0.500000
+  Restitution     0.200000
+
+  LifeTime        1.500000
+  LifeTimeVar     0.500000
+
+  SpinRate        0.000000
+  SpinRateVar     0.000000
+
+  SizeVar         0.000000
+  GrowRate        0.000000
+  GrowRateVar     0.000000
+
+  TrailType       -1
+}

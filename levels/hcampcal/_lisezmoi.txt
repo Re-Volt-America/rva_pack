@@ -1,0 +1,81 @@
+*****************************************************************************
+*								            *
+*	H  H  OO  L    I DDD   AA  Y  Y    CCC  AA  M   M PPP               *
+*	H  H O  O L    I D  D A  A  YY    C    A  A MM MM P  P              *
+*	HHHH O  O L    I D  D AAAA  Y     C    AAAA M M M PPP               *
+*	H  H O  O L    I D  D A  A  Y     C    A  A M   M P                 *
+*	H  H  OO  LLLL I DDD  A  A  Y      CCC A  A M   M P                 *
+*							    par smag [Romeo]*
+*****************************************************************************
+
+
+Ce ficher est disponible en anglais (_ReadMe.txt)
+
+
+Informations
+************
+
+Nom du circuit:			Holiday Camp
+Longueur:			1170 m
+Difficulté:			Medium
+Auteur:				smag [Romeo]
+Email:				smag@belgacom.net
+
+
+Installation
+************
+
+répertoire d'installation:	HCamp
+Installation:			Extraire HCamp.zip vers le répertoire principal de Re-Volt
+Uninstallation:			Effacer <Re-Volt dir>\levels\HCamp
+				Effacer <Re-Volt dir>\gfx\HCamp.bmp
+
+
+Description
+***********
+C'est la tombée de la nuit... Dans ce camp de vacances, on joue au tennis le matin et on se promène...
+Mais au coucher du soleil, les fans de Re-Volt envahissent le camp et s'affrontent jusqu'aux petites heures.
+
+Un long circuit pour voitures rapides complètement réalisé avec Max.
+
+
+Jouer en sens inverse
+*********************
+
+Si vous aimez Holiday Camp, vous pouvez y jouer en mode "reverse".
+(sélectionnez un circuit original, renversez-le (nom du joueur : "TRACKER" pour avoir les privilèges) 
+et sélectionnez Holiday Camp)
+
+
+Outils
+******
+
+3D Studio MAX,
+PhotoShop/iPhoto Plus/MS Paint,
+MAKEITGOOD Edit Mode/RV Extreme's Keyboard Commands Table,
+ASE converter,
+Prm2Ncp,
+and rv-sizer.
+
+
+Remerciements & Crédits
+***********************
+
+Merci à Falbala pour ses impressions et pour les longues conversations qu'on a eu.
+Merci à Kidi pour certains modèles et certaines idées qu'on a eu ensemble.
+Merci à TF pour certaines textures qu'il a fait pour moi.
+Merci à Gabor pour toutes les discussions et explications qu'on a eu par mail.
+Merci à toutes les personnes de Racerpoint d'être là.
+Merci à Alexander Kroeller et Steven Ellis pour le convertisseur des formats Max vers Re-Volt.
+Crédit à Acclaim pour ce jeu extraordinaire.
+
+
+Copyright / Permissions
+***********************
+
+Vous pouvez distribuer ce circuit, pour autant que vous ne le modifiiez pas et que vous incluiez ce fichier.
+Vous pouvez tout utiliser dans ce package pour votre compte personnel à condition de le faire gratuitement.
+
+
+Bon amusement,
+Romeo

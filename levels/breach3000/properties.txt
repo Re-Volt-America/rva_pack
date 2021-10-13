@@ -1,0 +1,31 @@
+{
+	SPARK {
+	  ID              3
+	  Name            "SOFT STEAM"
+	  CollideWorld    false
+	  CollideObject   false
+	  CollideCam      false
+	  HasTrail        false
+	  FieldAffect     false
+	  Spins           true
+	  Grows           true
+	  Additive        true
+	  Horizontal      false
+	  Size            400 400
+	  UV              0 0
+	  UVSize          0.25 0.25
+	  TexturePage     47
+	  Color           20 20 20
+	  Mass            0.01
+	  Resistance      0.0001
+	  Friction        0.001
+	  Restitution     0.5
+	  LifeTime        0.8
+	  LifeTimeVar     0.5
+	  SpinRate        1
+	  SpinRateVar     0
+	  SizeVar         10
+	  GrowRate        30
+	  GrowRateVar     0
+	}
+}

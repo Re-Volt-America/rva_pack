@@ -1,0 +1,47 @@
+MATERIAL {
+  ID               10               ; ID of the material to replace [0 - 26]
+  Name             "Ice 1 Snow"     ; Display name
+
+  Spark            true             ; Material emits particles
+  Skid             true             ; Skid marks appear on material
+  OutOfBounds      false            ; Not implemented
+  Corrugated       true             ; Material is bumpy
+  Moves            false            ; Moves cars like museum conveyors
+  Dusty            true             ; Material emits dust
+
+  Roughness        0.75              ; Roughness of the material
+  Grip             0.75              ; Grip of the material
+  Hardness         0.2              ; Hardness of the material
+
+  SkidSound        7                ; Sound when skidding [0:Normal, 1:Rough]
+  ScrapeSound      5                ; Car body scrape [0:Normal]
+
+  SkidColor        200 200 255      ; Color of the skid marks
+  CorrugationType  2                ; Type of bumpiness [0 - 7]
+  DustType         4                ; Type of dust
+  Velocity         0.0 0.0 0.0      ; Speed and direction cars are moved in
+}
+
+MATERIAL {
+  ID              21                            ; Material to replace [0 - 26]
+  Name            "ICE2 new"                        ; Display name
+
+  Skid            true                          ; Skidmarks appear on material
+  Spark           true                          ; Material emits particles
+  OutOfBounds     false                         ; Not implemented
+  Corrugated      false                         ; Material is bumpy
+  Moves           false                         ; Moves like museum conveyors
+  Dusty           false                         ; Material emits dust
+
+  Roughness       0.300000                      ; Roughness of the material
+  Grip            0.200000                      ; Grip of the material
+  Hardness        0.200000                      ; Hardness of the material
+
+  SkidSound       7                             ; Sound when skidding
+  ScrapeSound     5                             ; Car body scrape [5:Normal]
+
+  SkidColor       200 200 255                      ; Color of the skidmarks
+  CorrugationType 0                             ; Type of bumpiness [0 - 7]
+  DustType        0                             ; Type of dust
+  Velocity        0.000000 0.000000 0.000000    ; Move cars
+}

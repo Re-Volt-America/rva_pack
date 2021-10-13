@@ -1,0 +1,7 @@
+If no music file is inside this folder, some standard Redbook
+music will be played while racing "School's Out!".
+
+Get the exclusive "School's Out!" track by ZetaSphere at the
+link below and copy the file inside this folder.
+
+https://garage.re-volt.io/s/nn2T2LCnrGjr8nx

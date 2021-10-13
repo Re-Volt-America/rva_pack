@@ -1,0 +1,81 @@
+;==============================================================================
+;  MATERIALS
+;==============================================================================
+;  Default material IDs:
+;    NONE:       -1  |  BUMPMETAL:         13
+;    DEFAULT:     0  |  PEBBLES:           14
+;    MARBLE:      1  |  GRAVEL:            15
+;    STONE:       2  |  CONVEYOR1:         16
+;    WOOD:        3  |  CONVEYOR2:         17
+;    SAND:        4  |  DIRT1:             18
+;    PLASTIC:     5  |  DIRT2:             19
+;    CARPETTILE:  6  |  DIRT3:             20
+;    CARPETSHAG:  7  |  ICE2:              21
+;    BOUNDARY:    8  |  ICE3:              22
+;    GLASS:       9  |  WOOD2:             23
+;    ICE1:       10  |  CONVEYOR_MARKET1:  24
+;    METAL:      11  |  CONVEYOR_MARKET2:  25
+;    GRASS:      12  |  PAVING:            26
+;==============================================================================
+;==============================================================================
+
+
+
+MATERIAL {
+  ID              20                            ; Material to replace [0 - 26]
+  Name            "DIRT3"                       ; Display name
+
+  Skid            true                         ; Skidmarks appear on material
+  Spark           false                         ; Material emits particles
+  OutOfBounds     false                         ; Not implemented
+  Corrugated      false                          ; Material is bumpy
+  Moves           false                         ; Moves like museum conveyors
+  Dusty           true                          ; Material emits dust
+
+  Roughness       1.000000                      ; Roughness of the material
+  Grip            0.800000                      ; Grip of the material
+  Hardness        0.000000                      ; Hardness of the material
+
+  DefaultSound    -1                            ; Sound when driving
+  SkidSound       7                             ; Sound when skidding
+  ScrapeSound     5                             ; Car body scrape [5:Normal]
+
+  SkidColor       220 220 220                   ; Color of the skidmarks
+  CorrugationType 7                             ; Type of bumpiness [0 - 7]
+  DustType        1                             ; Type of dust
+}
+
+MATERIAL {
+  ID              21                            ; Material to replace [0 - 26]
+  Name            "ICE2"                        ; Display name
+
+  Skid            true                          ; Skidmarks appear on material
+  Spark           false                          ; Material emits particles
+  OutOfBounds     false                         ; Not implemented
+  Corrugated      true                          ; Material is bumpy
+  Moves           false                         ; Moves like museum conveyors
+  Dusty           true                          ; Material emits dust
+
+  Roughness       0.700000                      ; Roughness of the material
+  Grip            200.000000                    ; Grip of the material
+  Hardness        0.400000                      ; Hardness of the material
+
+  SkidSound       7                             ; Sound when skidding
+  ScrapeSound     5                             ; Car body scrape [5:Normal]
+
+  SkidColor       150 150 150                    ; Color of the skidmarks
+  CorrugationType 3                             ; Type of bumpiness [0 - 7]
+  DustType        1                             ; Type of dust
+  Velocity        0.000000 0.000000 0.000000    ; Move cars
+}
+
+DUST {
+	  ID              1
+	  Name            "TEST"
+	  SparkType       28
+	  ParticleChance  5
+	  ParticleRandom  0
+	  SmokeType       30
+	  SmokeChance     1
+	  SmokeRandom     0.1
+}

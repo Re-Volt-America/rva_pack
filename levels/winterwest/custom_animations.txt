@@ -1,0 +1,93 @@
+{
+  MODEL   0   "horsetail"
+  
+  ANIMATION {
+    Slot                      0
+    Name                      "Horsetail"
+    Mode                      2
+  
+    BONE {
+      BoneID                  0
+      ModelID                 0
+    }
+  
+    KEYFRAME {
+      FrameNr                 0
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                0
+        RotationAxis          0 0 15
+        RotationAmount        7
+      }
+      }
+    KEYFRAME {
+      FrameNr                 1
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                0
+        RotationAxis          0 0 -15
+        RotationAmount        7
+      }
+      }
+    KEYFRAME {
+      FrameNr                 2
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                0
+        RotationAxis          0 0 15
+        RotationAmount        7
+      }
+      }
+  
+    KEYFRAME {
+      FrameNr                 3
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                0
+        RotationAxis          0 0 -15
+        RotationAmount        20
+      }
+      }
+    KEYFRAME {
+      FrameNr                 4
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                0
+        RotationAxis          0 0 15
+        RotationAmount        20 
+      }
+      }
+    KEYFRAME {
+      FrameNr                 5
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                0
+        RotationAxis          0 0 -15
+        RotationAmount        10
+      }
+      }
+    KEYFRAME {
+      FrameNr                 6
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                0
+        RotationAxis          0 0 15
+        RotationAmount        20
+      }
+    }
+  }
+}

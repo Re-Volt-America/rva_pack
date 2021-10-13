@@ -99,7 +99,7 @@ KineticFriction 0.400000
 WHEEL 0 { 	; Start Wheel
 ModelNum 	1
 Offset1  	-20.000000 8.000000 55.000000
-Offset2  	-6.000000 0.000000 0.000000
+Offset2  	-5.000000 0.000000 0.000000
 IsPresent   	TRUE
 IsPowered   	FALSE
 IsTurnable  	TRUE
@@ -121,7 +121,7 @@ KineticFriction 	1.500000
 WHEEL 1 { 	; Start Wheel
 ModelNum 	2
 Offset1  	20.000000 8.000000 55.000000
-Offset2  	6.000000 0.000000 0.000000
+Offset2  	5.000000 0.000000 0.000000
 IsPresent   	TRUE
 IsPowered   	FALSE
 IsTurnable  	TRUE
@@ -273,13 +273,13 @@ Length      	16.000000
 
 AXLE 2 {   	; Start Axle
 ModelNum    	9
-Offset      	-7.000000 5.000000 -23.000000
+Offset      	-7.000000 6.000000 -24.000000
 Length      	16.000000
 }           	; End axle
 
 AXLE 3 {   	; Start Axle
 ModelNum    	9
-Offset      	7.000000 5.000000 -23.000000
+Offset      	7.000000 6.000000 -24.000000
 Length      	16.000000
 }           	; End axle
 
@@ -336,3 +336,4 @@ Suspension     	0
 Aggression     	0
 }           	; End AI
 
+}

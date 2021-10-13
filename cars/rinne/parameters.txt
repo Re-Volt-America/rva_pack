@@ -31,14 +31,14 @@ MODEL 	15 	"cars\rinne\glow.prm"
 MODEL 	16 	"NONE"
 MODEL 	17 	"cars\misc\Aerial.m"
 MODEL 	18 	"cars\misc\AerialT.m"
-;)TCARBOX  	"cars\rinne\carbox.bmp"
-TPAGE 	"cars\rinne\car.bmp"
-COLL 	"cars\rinne\hull.hul"
-;)SFXENGINE 	"cars/rinne/petrol.wav"
-;)TSHADOW 	"cars/rinne/shadow.bmp"
-;)SHADOWINDEX 	-1
-;)SHADOWTABLE 	-58.000000 58.000000 54.000000 -59.000000 -0.000000 	; Left, right, front, back, height (relative to model center)
-EnvRGB 	100 100 100
+;)TCARBOX      "cars\rinne\carbox.bmp"
+TPAGE         "cars\rinne\car.bmp"
+COLL         "cars\rinne\hull.hul"
+;)SFXENGINE     "cars\rinne\petrol.wav"
+;)TSHADOW     "cars\rinne\shadow.bmp"
+;)SHADOWINDEX     -1
+;)SHADOWTABLE     -58.000000 58.000000 54.000000 -59.000000 -0.000000     ; Left, right, front, back, height (relative to model center)
+EnvRGB     100 100 100
 
 ;====================
 ; Frontend

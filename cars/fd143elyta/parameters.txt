@@ -120,7 +120,7 @@ Offset2  	-1.500000 0.000000 0.000000
 IsPresent   	true
 IsPowered   	true
 IsTurnable  	true
-SteerRatio  	-0.250000
+SteerRatio  	-0.260000
 EngineRatio 	22000.000000
 Radius      	11.000000
 Mass        	0.150000

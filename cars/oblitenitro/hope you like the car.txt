@@ -1,0 +1,45 @@
+                    # # # # # # # # # # # # # # # # # # #
+                    #  _____________________ ________   #
+                    #  \_   _____/\____    //  _____/   #
+                    #   |    __)    /     //   \  ___   #
+                    #   |     \    /     /_\    \_\  \  #
+                    #   \___  /   /_______ \\______  /  #
+                    #       \/            \/       \/   #
+                    #				    	#
+                    # # # # # # # # # # # # # # # # # # #
+
+Car information
+__________________________________________________________________________
+Car name		: Oblitenitro
+Car Type		: Remodel of Col Moss
+Top speed		: 51 Mph
+Rating/Class		: Super-Pro
+Installed folder	: ...\cars\oblitwin
+Description		: I consider this a little masterpiece of remodel.
+			  Thank you for hosting the contest on the site.
+			  This creation was based off F-82 Twin Mustang.
+
+Author Information
+__________________________________________________________________________
+Author Name 	: Fr13ndz0n3dguy
+Email Address   : fatahzahran@gmail.com
+
+Construction
+__________________________________________________________________________
+Base           	: Col. Moss
+Editor(s) used 	: Blender, Autoshade, and Paint.net
+
+Additional Credits 
+__________________________________________________________________________
+-Thanks to the official community who continues to make Re-Volt a fun and 
+attractive game !
+-R6TE and Mightycucumber who taught me blender basics
+-Burner94 for teaching me how to make custom hull on blender
+-All good people responses on the lovely Discord community
+-All the updates of RVGL
+
+Copyright / Permissions
+__________________________________________________________________________
+You may do whatever you want with this car but you have to give us credits
+and give credit to the original author.
+Do not distribute without authorization.

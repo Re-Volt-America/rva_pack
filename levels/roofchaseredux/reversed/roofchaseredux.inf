@@ -1,0 +1,19 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'Rooftop Chase: Redux'
+STARTPOS        -3571.000000 -1493.000000 4134.000000
+STARTROT        0.505
+STARTGRID       1
+MIRRORS         1 1 0.3 1000
+FARCLIP		200000		
+FOGSTART	120000		
+FOGCOLOR        15 21 26
+VERTFOGSTART    10
+VERTFOGEND      1400
+WORLDRGBPER     32
+MODELRGBPER     35
+INSTANCERGBPER  85
+MP3		'levels\roofchaseredux\thechase.mp3'
+REDBOOK		1 3

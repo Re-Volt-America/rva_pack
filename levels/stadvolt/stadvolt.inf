@@ -1,0 +1,24 @@
+NAME                   'StadVolt'                       ;The name of the level as seen in-game
+STARTPOS               10142 270 2580                     ;Start position of the car (x, y, z)
+STARTPOSREV            9880 270 2410                      ;Start position of the car in reverse mode
+STARTROT               0.5                                ;Start rotation of the car (0 - 1)
+STARTROTREV            0                                  ;Start rotation of the car in reverse mode (0 - 1)
+CHALLENGE	       0 39 000
+CHALLENGEREV	       0 39 000
+FARCLIP                75000                              ;Far clipping distance (draw distance)
+FOGSTART               70000                              ;Fog start (slightly less than FARCLIP)
+FOGCOLOR               5 5 10                             ;Fog and background color (RGB)
+VERTFOGSTART           0                                  ;Vertical fog start (as in rooftops)
+VERTFOGEND             0                                  ;Vertical fog end (as in rooftops)
+WORLDRGBPER            100                                ;RGB percent of original world gouraud (0 is dark)
+MODELRGBPER            60                                 ;RGB percent of original model (cars, etc.) gouraud
+INSTANCERGBPER         100                                ;RGB percent of original instance (decorations, etc.) gouraud
+MIRRORS                0 0.75 0 256                       ;Type - mix - intensity start - distance
+MUSIC                  'levels\stadvolt\'	          ;supported formats are mp3, ogg and wav
+REDBOOK                4 9                                ;Redbook soundtrack if redbook folder is present. Two values, first and last track.
+ENVROLL                'gfx\envroll.bmp'     		  ;Reflection on cars
+ENVSTILL               'gfx\envstill.bmp'    		  ;Reflection on stationary objects and the ball bearing weapon
+SHADOWBOX              -50                                ;Changes the contrast/brightness or the shadows on the track, default -96.
+ROCK                   0 0 0 0                            ;Rocking effect like on Toytanic.
+DIFFICULTY	       3
+SWEEPCAM	       1  				  ; Sweep camera (0:Disabled, 1:Enabled)

@@ -1,0 +1,196 @@
+{
+MODEL   0   "downrod"
+MODEL   1   "blades"
+MODEL   3   "pendulum"
+MODEL   4   "hour"
+MODEL   5   "minute"
+MODEL   6   "fish"
+
+ANIMATION {
+  Slot                      0                        
+  Name                      "Ceiling Fan"         
+  Mode                      0                         
+
+  BONE {
+    BoneID                  0                     
+    ModelID                 0                     
+  }
+  BONE {
+    BoneID                  1                      
+    ModelID                 1                       
+  }
+
+  KEYFRAME {
+    FrameNr                 0                        
+    Time                    2                    
+    Type                    0                        
+
+    BONE {
+      BoneID                1                     
+      RotationAxis          0.000 1.000 0.000      
+      RotationAmount        -360.000                  
+    }
+   }
+}
+
+ANIMATION {
+  Slot                      1                        
+  Name                      "Pendulum"         
+  Mode                      2                         
+
+  BONE {
+    BoneID                  0                     
+    ModelID                 -1            
+  }
+  BONE {
+    BoneID                  1                     
+    ModelID                 3          
+    Parent		 0  
+    OffsetTranslation       0.00 200.000 0.000      
+  }
+
+  KEYFRAME {
+    FrameNr                 0                        
+    Time                    0.9                    
+    Type                    3                        
+
+    BONE {
+      BoneID                0                     
+      RotationAxis          0.000 0.000 1.000      
+      RotationAmount        9.000                  
+    }
+   }
+}
+
+ANIMATION {
+  Slot                      2                        
+  Name                      "Hour"         
+  Mode                      0                         
+
+  BONE {
+    BoneID                  0                     
+    ModelID                 4                     
+  }
+
+  KEYFRAME {
+    FrameNr                 0                        
+    Time                     43200                    
+    Type                    0                        
+
+    BONE {
+      BoneID                0                     
+      RotationAxis          0.000 0.000 1.000      
+      RotationAmount        -360.000                  
+    }
+   }
+}
+
+ANIMATION {
+  Slot                      3                        
+  Name                      "Minute"         
+  Mode                      0                         
+
+  BONE {
+    BoneID                  0                     
+    ModelID                 5                     
+  }
+
+  KEYFRAME {
+    FrameNr                 0                        
+    Time                   3600                    
+    Type                    0                        
+
+    BONE {
+      BoneID                0                     
+      RotationAxis          0.000 0.000 1.000      
+      RotationAmount        -360.000                  
+    }
+   }
+}
+ANIMATION {
+  Slot                      4                        
+  Name                      "A Goldfish Named Patch"         
+  Mode                      2                         
+
+  BONE {
+    BoneID                  0                     
+    ModelID                 6                     
+  }
+
+  KEYFRAME {
+    FrameNr                 0                        
+    Time                   2                    
+    Type                    3                        
+
+    BONE {
+      BoneID                0                     
+      Translation           9.000 -10.000 18.000 
+      RotationAxis          0.000 1.000 0.000      
+      RotationAmount        -17.000                  
+    }
+   }
+  KEYFRAME {
+    FrameNr                 1                        
+    Time                   6                    
+    Type                    3                        
+
+    BONE {
+      BoneID                0                     
+      Translation           -22.000 20.000 -34.000 
+      RotationAxis          0.000 1.000 0.000      
+      RotationAmount        163.000                  
+    }
+   }
+  KEYFRAME {
+    FrameNr                 2                        
+    Time                   4                    
+    Type                    3                        
+
+    BONE {
+      BoneID                0                     
+      Translation           -13.000 -10.000 -16.000 
+      RotationAxis          0.000 1.000 0.000      
+      RotationAmount        -80.000                  
+    }
+   }
+  KEYFRAME {
+    FrameNr                 3                        
+    Time                   6                    
+    Type                    3                        
+
+    BONE {
+      BoneID                0                     
+      Translation           20.000 25.000 17.000 
+      RotationAxis          0.000 1.000 0.000      
+      RotationAmount        -50.000                  
+    }
+   }
+  KEYFRAME {
+    FrameNr                 4                        
+    Time                   3                    
+    Type                    3                        
+
+    BONE {
+      BoneID                0                     
+      Translation           -10.000 -13.000 -12.000 
+      RotationAxis          0.000 1.000 0.000      
+      RotationAmount        -30.000                  
+    }
+   }
+  KEYFRAME {
+    FrameNr                 5                        
+    Time                   4                    
+    Type                    3                        
+
+    BONE {
+      BoneID                0                     
+      Translation           -10.000 -12.000 -5.000 
+      RotationAxis          0.000 1.000 0.000      
+      RotationAmount        -20.000                  
+    }
+   }
+}
+
+
+
+}

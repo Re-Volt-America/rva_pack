@@ -1,0 +1,25 @@
+26/12/2020
+- updated the regular version of the track to prevent cuts on various places (thanks Frostt ALSO Ashen and Duc!)
+
+27/12/2020
+- REVERSE MODE REDUX!
+- brand new reverse mode set at night (BIG thanks to Tubers for all the help!)
+- fixed red x on one place
+- added repo zones to places you shouldn't go to go gain unfair advantage
+- added skiresn.bmp so you know you have the newest version of track
+
+3/1/2021
+-fixed "THE BUMP"
+-added rock to turn 3
+
+3/1/2021 x2
+-added rock to turn 1
+
+25/1/2021
+- moved the trackzones a little bit at the sbend part due to possible red x (sry nickurn)
+- added changelog file
+
+28/5/2021
+- reworked the trackzones and triggers in reverse mode
+- small trackzone tweaks
+- added anti-abuse repo

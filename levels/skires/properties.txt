@@ -1,0 +1,80 @@
+MATERIAL {
+  ID               10               ; ID of the material to replace [0 - 26]
+  Name             "Ice 1 Snow"     ; Display name
+
+  Spark            true             ; Material emits particles
+  Skid             true             ; Skid marks appear on material
+  OutOfBounds      false            ; Not implemented
+  Corrugated       true             ; Material is bumpy
+  Moves            false            ; Moves cars like museum conveyors
+  Dusty            true             ; Material emits dust
+
+  Roughness        0.75              ; Roughness of the material
+  Grip             0.75              ; Grip of the material
+  Hardness         0.2              ; Hardness of the material
+
+  SkidSound        7                ; Sound when skidding [0:Normal, 1:Rough]
+  ScrapeSound      5                ; Car body scrape [0:Normal]
+
+  SkidColor        200 200 255      ; Color of the skid marks
+  CorrugationType  2                ; Type of bumpiness [0 - 7]
+  DustType         2                ; Type of dust
+  Velocity         0.0 0.0 0.0      ; Speed and direction cars are moved in
+}
+
+DUST {
+  ID              2                             ; Dust ID [0 - 31]
+  Name            "SAND"                      ; Display name
+
+  SparkType       2                             ; Particle to emit
+  ParticleChance  0.600000                      ; Probability of a particle
+  ParticleRandom  0.600000                      ; Probability variance
+
+  SmokeType       29                            ; Smoke particle to emit
+  SmokeChance     0.300000                      ; Probability of a smoke part.
+  SmokeRandom     0.600000                      ; Probability variance
+}
+
+SPARK {
+  ID              31                             ; Particle ID [0 - 63]
+  Name            "SNOW2"                       ; Display name
+
+  CollideWorld    true                          ; Collision with the world
+  CollideObject   true                          ; Collision with objects
+  CollideCam      true                          ; Collision with camera
+  HasTrail        false                         ; Particle has a trail
+  FieldAffect     true                          ; Is affected by force fields
+  Spins           false                         ; Particle spins
+  Grows           false                         ; Particle grows
+  Additive        true                          ; Draw particle additively
+  Horizontal      false                         ; Draw particle flat
+
+  Size            20.000000 20.000000             ; Size of the particle
+  UV              0.000000 1.000000             ; Top left UV coordinates
+  UVSize          1.000000 1.000000             ; Width and height of UV
+  TexturePage     8                            ; Texture page
+  Color           255 255 255                   ; Color of the particle
+
+  Mass            0.000001                      ; Mass of the particle
+  Resistance      0.000001                      ; Air resistance
+  Friction        1.100000                      ; Sliding friction
+  Restitution     0.500000                      ; Bounciness
+
+  LifeTime        1.500000                      ; Maximum life time
+  LifeTimeVar     0.500000                      ; Life time variance
+
+  SpinRate        0.000000                      ; Avg. spin rate (radians/sec)
+  SpinRateVar     0.000000                      ; Variation of the spin rate
+
+  SizeVar         10.000000                      ; Size variation
+  GrowRate        0.000000                      ; How quickly it grows
+  GrowRateVar     0.000000                      ; Grow variation
+
+  TrailType       1                             ; ID of the trail to use
+}
+
+PICKUPS {
+  SpawnCount      64 64                           ; Initial and per-player count
+  EnvColor        255 255 128                   ; Color of shininess (RGB)
+  LightColor      10 10 10                      ; Color of light (RGB)
+}

@@ -1,0 +1,5 @@
+{
+  PICKUPS {
+    SpawnCount 99 0
+  }
+}

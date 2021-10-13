@@ -1,0 +1,16 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'Calaboq'
+STARTPOS        13000 -2000 13000
+STARTROT        0.5
+STARTGRID       3
+FARCLIP         10000
+FOGSTART        8000
+FOGCOLOR        0 0 0
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     100
+INSTANCERGBPER  100
