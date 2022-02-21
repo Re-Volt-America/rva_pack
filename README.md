@@ -8,7 +8,7 @@
 
 ## Introduction
 
-These are the repository where the custom tracks & cars individual packages live together as submodules. More submodules
+These are the repositories where the custom tracks & cars individual packages live together as submodules. More submodules
 will be added as more packages come to be (i.e rva_skins).
 
 ```
