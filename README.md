@@ -8,24 +8,13 @@
 
 ## Introduction
 
-Each of the folders in this repository contain the files for the content used by the Re-Volt America community, 
-and they are to be kept within a single folder, `rva/` in the example beneath. This folder we refer to as the
-RVA Pack.
+These are the repository where the custom tracks & cars individual packages live together as submodules. More submodules
+will be added as more packages come to be (i.e rva_skins).
 
 ```
 rva/
-├── cars/
-├── levels/
-└── gfx/
-```
-
-Then, the RVA pack can be dropped into your Re-Volt installation's `packs/` directory, and loaded in by
-either creating a `default.txt` within said location. In order to include the pack, simply write the following in it:
-
-```
-;default
-rva
-;local *
+├── rva_cars/
+└── rva_tracks/
 ```
 
 ## Downloading

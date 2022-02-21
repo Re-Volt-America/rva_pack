@@ -1,1 +1,0 @@
-Thanks to my friends on discord, Ziggy, BloodBTF, Burner94 for making this project happen.

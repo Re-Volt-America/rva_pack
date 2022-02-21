@@ -1,0 +1,6 @@
+[submodule "rva_cars"]
+	path = rva_cars
+	url = https://github.com/Re-Volt-America/rva_cars
+[submodule "rva_tracks"]
+	path = rva_tracks
+	url = https://github.com/Re-Volt-America/rva_tracks
