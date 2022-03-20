@@ -4,9 +4,9 @@ require 'json'
 
 require_relative 'data'
 
-task default: %i[version]
+task :default => %i[version]
 
-task version: %i[version_rva_cars version_rva_tracks] do
+task :version => %i[version_rva_cars version_rva_tracks] do
   rva_cars_json = File.read('rva_cars/packages.json')
   rva_tracks_json = File.read('rva_tracks/packages.json')
 
