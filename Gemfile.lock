@@ -51,6 +51,7 @@ GEM
     unicode-display_width (2.1.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
