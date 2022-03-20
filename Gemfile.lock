@@ -5,6 +5,7 @@ GEM
     rake (13.0.6)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
