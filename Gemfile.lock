@@ -5,13 +5,15 @@ GEM
       sshkit (>= 1.6.1, != 1.7.0)
     ast (2.4.2)
     bcrypt_pbkdf (1.1.0-x64-mingw32)
-    capistrano (3.17.0)
+    capistrano (3.16.0)
       airbrussh (>= 1.0.0)
       i18n
       rake (>= 10.0.0)
       sshkit (>= 1.9.0)
     capistrano-bundler (2.0.1)
       capistrano (~> 3.1)
+    capistrano-git-with-submodules (2.0.4)
+      capistrano (~> 3.7)
     concurrent-ruby (1.1.9)
     ed25519 (1.3.0)
     i18n (1.10.0)
@@ -39,6 +41,7 @@ GEM
     rubocop-ast (1.16.0)
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
+    rubyzip (2.3.2)
     rvm1-capistrano3 (1.4.0)
       capistrano (~> 3.0)
       sshkit (>= 1.2)
@@ -48,17 +51,18 @@ GEM
     unicode-display_width (2.1.0)
 
 PLATFORMS
-  ruby
   x64-mingw32
 
 DEPENDENCIES
   bcrypt_pbkdf (>= 1.0, < 2.0)
-  capistrano (~> 3.14)
+  capistrano (~> 3.16.0)
   capistrano-bundler (~> 2.0)
+  capistrano-git-with-submodules (~> 2.0)
   ed25519 (>= 1.2, < 2.0)
   json (~> 2.6, >= 2.6.1)
   rake (~> 13.0, >= 13.0.6)
   rubocop
+  rubyzip (~> 2.3, >= 2.3.2)
   rvm1-capistrano3
 
 RUBY VERSION
