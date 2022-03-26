@@ -14,3 +14,4 @@ mv rva_tracks/rva_tracks.zip $DIST/rva
 mv packages.json $DIST/packages.json
 
 chmod -R 777 $DIST/rva
+chmod -R 777 $DIST/packages.json
