@@ -11,3 +11,5 @@ bundle exec rake
 mv rva_cars/rva_cars.zip $DIST/rva
 mv rva_tracks/rva_tracks.zip $DIST/rva
 mv packages.json $DIST/packages.json
+
+chmod -R 777 $DIST/rva_data/
