@@ -4,6 +4,7 @@ readonly DIST=/home/deploy/distribute
 
 bundle exec rake
 
+mkdir -p $DIST/rva
 [ -e $DIST/rva/rva_cars.zip ] && rm -r $DIST/rva/rva_cars.zip
 [ -e $DIST/rva/rva_tracks.zip ] && rm -r $DIST/rva/rva_tracks.zip
 [ -e $DIST/rva/packages.json ] && rm $DIST/packages.json
