@@ -4,3 +4,6 @@
 [submodule "rva_tracks"]
 	path = rva_tracks
 	url = https://github.com/Re-Volt-America/rva_tracks
+[submodule "rva_lego_tracks"]
+	path = rva_lego_tracks
+	url = git@github.com:Re-Volt-America/rva_lego_tracks.git
