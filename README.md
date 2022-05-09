@@ -20,4 +20,5 @@ rva/
 
 ## Set up
 Use `git clone --recursive` to get needed sub-modules.
+
 Use `git submodule update --remote --merge` to keep sub-modules updated.
