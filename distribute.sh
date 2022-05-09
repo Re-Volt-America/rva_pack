@@ -11,6 +11,7 @@ mkdir -p $DIST/rva
 [ -e $DIST/rva/packages.json ] && rm $DIST/packages.json
 
 mv rva_cars/rva_cars.zip $DIST/rva
+mv rva_tracks/rva_tracks.zip $DIST/rva
 mv rva_lego_tracks/rva_lego_tracks.zip $DIST/rva
 mv packages.json $DIST/packages.json
 
