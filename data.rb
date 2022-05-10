@@ -6,5 +6,7 @@ module RVA
   YEAR = 22
   MONTH = 5
   DAY = 9
-  VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY}"
+  REVISION = 1
+  SUFFIX = 'a'
+  VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY}#{SUFFIX}-#{REVISION}"
 end
