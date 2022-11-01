@@ -30,7 +30,6 @@ jobs:
           mv rva_tracks.zip rva
           mv rva_lego_tracks.zip rva
       - name: Deploy via FTP
-      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: ${{ secrets.FTP_SERVER }}
