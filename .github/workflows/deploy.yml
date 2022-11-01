@@ -17,10 +17,10 @@ jobs:
       - name: Bundle gems
         run: |
           gem install bundler
-          bundle install --jobs 4 --retry 3
+          bundler install --jobs 4 --retry 3
       - name: Run Rake tasks
         run: |
-          bundle exec rake
+          bundler exec rake
       - name: Prepare FTP directories
         run: |
           mkdir rva
