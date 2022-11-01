@@ -23,18 +23,25 @@ jobs:
       - name: Run Rake tasks
         run: |
           bundler exec rake
-      - name: Prepare FTP directories
-        run: |
-          mkdir rva
-          mv rva_cars.zip rva
-          mv rva_tracks.zip rva
-          mv rva_lego_tracks.zip rva
-          mv packages.json rva
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: rva
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: "./rva/"
-          server-dir: "rva/"
+          local-dir: "./"
+          server-dir: "./"
+          exclude: |
+            **/.git*
+            **/.git*/**
+            rva_cars/**
+            rva_lego_tracks/**
+            rva_tracks/**
+            .gitignore
+            .gitmodules
+            .rubocop.yml
+            data.rb
+            Gemfile
+            Gemfile.lock
+            Rakefile
+            README.md
