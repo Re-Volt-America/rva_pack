@@ -1,9 +1,9 @@
 [submodule "rva_cars"]
 	path = rva_cars
-	url = https://github.com/Re-Volt-America/rva_cars
+	url = git@github.com:Re-Volt-America/rva_cars.git
 [submodule "rva_tracks"]
 	path = rva_tracks
-	url = https://github.com/Re-Volt-America/rva_tracks
+	url = git@github.com:Re-Volt-America/rva_tracks.git
 [submodule "rva_lego_tracks"]
 	path = rva_lego_tracks
 	url = git@github.com:Re-Volt-America/rva_lego_tracks.git
