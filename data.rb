@@ -19,7 +19,7 @@ module RVA
     REVISION = 3
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY}#{SUFFIX}-#{REVISION}"
-    URL = 'https://distribute.revolt-america.com/rva/rva_cars.zip'
+    URL = 'https://distribute.rva.lat/rva/rva_cars.zip'
   end
 
   module RVATracks
@@ -31,7 +31,7 @@ module RVA
     REVISION = 3
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY}#{SUFFIX}-#{REVISION}"
-    URL = 'https://distribute.revolt-america.com/rva/rva_tracks.zip'
+    URL = 'https://distribute.rva.lat/rva/rva_tracks.zip'
   end
 
   module RVALegoTracks
@@ -43,6 +43,6 @@ module RVA
     REVISION = 2
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY}#{SUFFIX}-#{REVISION}"
-    URL = 'https://distribute.revolt-america.com/rva/rva_lego_tracks.zip'
+    URL = 'https://distribute.rva.lat/rva/rva_lego_tracks.zip'
   end
 end
