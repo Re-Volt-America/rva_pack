@@ -26,9 +26,9 @@ module RVA
     NAME = 'rva_tracks'
     DESCRIPTION = "Re-Volt America's Tracks Pack"
     YEAR = 22
-    MONTH = 8
-    DAY = 17
-    REVISION = 3
+    MONTH = 12
+    DAY = 10
+    REVISION = 1
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY}#{SUFFIX}-#{REVISION}"
     URL = 'https://distribute.rva.lat/rva/rva_tracks.zip'
