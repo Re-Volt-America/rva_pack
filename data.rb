@@ -14,8 +14,8 @@ module RVA
     NAME = 'rva_cars'
     DESCRIPTION = "Re-Volt America's Cars Pack"
     YEAR = 22
-    MONTH = 8
-    DAY = 17
+    MONTH = 12
+    DAY = 12
     REVISION = 3
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY}#{SUFFIX}-#{REVISION}"
