@@ -42,7 +42,7 @@ task :version do
     "\t\t\t\"description\": \"#{RVA::RVATracks::DESCRIPTION}\",",
     "\t\t\t\"version\": \"#{RVA::RVATracks::VERSION}\",",
     "\t\t\t\"checksum\": \"#{rva_tracks_checksum}\",",
-    "\t\t\t\"url\": \"#{RVA::RVATracks::VERSION}\"",
+    "\t\t\t\"url\": \"#{RVA::RVATracks::URL}\"",
     "\t\t},",
     "\t\t\"rva_lego_tracks\": {",
     "\t\t\t\"description\": \"#{RVA::RVALegoTracks::DESCRIPTION}\",",
