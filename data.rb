@@ -28,7 +28,7 @@ module RVA
     YEAR = 22
     MONTH = 12
     DAY = 10
-    REVISION = 1
+    REVISION = 2
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY}#{SUFFIX}-#{REVISION}"
     URL = 'https://distribute.rva.lat/rva/rva_tracks.zip'
