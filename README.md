@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="200" width="200" src="https://avatars.githubusercontent.com/u/79736314?s=200&v=4" />
+  <img height="200" width="200" src="docs/rva.png" />
 </p>
 
 <h1 align="center">RVA</h1>
