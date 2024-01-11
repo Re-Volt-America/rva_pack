@@ -65,7 +65,7 @@ task :package_cars do
 
   puts "Packaging into #{zipfile_name} ..."
 
-  exclude = %w(. .. Gemfile Gemfile.lock Rakefile .git .gitignore .idea data.rb README.md packages.json carboxes)
+  exclude = %w(. .. Gemfile Gemfile.lock Rakefile .git .gitignore .idea data.rb README.md packages.json carboxes docs)
   zf = ZipFileGenerator.new('./rva_cars', zipfile_name, exclude)
   zf.write
 
@@ -79,7 +79,7 @@ task :package_tracks do
 
   puts "Packaging into #{zipfile_name} ..."
 
-  exclude = %w(. .. Gemfile Gemfile.lock Rakefile .git .gitignore .idea data.rb README.md packages.json)
+  exclude = %w(. .. Gemfile Gemfile.lock Rakefile .git .gitignore .idea data.rb README.md packages.json docs)
   zf = ZipFileGenerator.new('./rva_tracks', zipfile_name, exclude)
   zf.write
 
@@ -93,7 +93,7 @@ task :package_lego_tracks do
 
   puts "Packaging into #{zipfile_name} ..."
 
-  exclude = %w(. .. Gemfile Gemfile.lock Rakefile .git .gitignore .idea data.rb README.md packages.json)
+  exclude = %w(. .. Gemfile Gemfile.lock Rakefile .git .gitignore .idea data.rb README.md packages.json docs)
   zf = ZipFileGenerator.new('./rva_lego_tracks', zipfile_name, exclude)
   zf.write
 

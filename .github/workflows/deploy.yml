@@ -42,6 +42,7 @@ jobs:
             **/.git*/**
             **/.bundle*
             **/.bundle*/**
+            docs/**
             rva_cars/**
             rva_lego_tracks/**
             rva_tracks/**
