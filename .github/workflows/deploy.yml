@@ -12,13 +12,13 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
-      - name: Set up Ruby 2.7.3
+      - name: Set up Ruby 3.2.2
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7.3
+          ruby-version: 3.2.2
       - name: Bundle gems
         run: |
-          gem install bundler -v 2.4.22
+          gem install bundler
           bundler install --jobs 4 --retry 3
       - name: Run Rake tasks
         run: |

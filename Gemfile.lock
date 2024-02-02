@@ -1,21 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    json (2.6.1)
-    rake (13.0.6)
+    json (2.7.1)
+    rake (13.1.0)
     rubyzip (2.3.2)
 
 PLATFORMS
   ruby
-  x64-mingw32
+  x64-mingw-ucrt
 
 DEPENDENCIES
   json (~> 2.6, >= 2.6.1)
-  rake (~> 13.0, >= 13.0.6)
+  rake (~> 13.1)
   rubyzip (~> 2.3, >= 2.3.2)
 
 RUBY VERSION
-   ruby 2.7.3p183
+   ruby 3.2.2p53
 
 BUNDLED WITH
-   2.2.21
+   2.4.21
