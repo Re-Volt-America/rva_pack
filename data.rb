@@ -3,9 +3,9 @@
 module RVA
   NAME = 'Re-Volt America'
   DESCRIPTION = "Re-Volt America's Official Content Pack"
-  YEAR = 23
-  MONTH = 10
-  DAY = 30
+  YEAR = 24
+  MONTH = 5
+  DAY = 1
   REVISION = 1
   SUFFIX = 'a'
   VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY < 10 ? "0#{DAY}" : DAY}#{SUFFIX}-#{REVISION}"
@@ -14,9 +14,9 @@ module RVA
     NAME = 'rva_cars'
     DESCRIPTION = "Re-Volt America's Cars Pack"
     YEAR = 23
-    MONTH = 10
-    DAY = 30
-    REVISION = 2
+    MONTH = 5
+    DAY = 1
+    REVISION = 1
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY < 10 ? "0#{DAY}" : DAY}#{SUFFIX}-#{REVISION}"
     URL = 'https://distribute.rva.lat/rva/rva_cars.zip'
@@ -25,10 +25,10 @@ module RVA
   module RVATracks
     NAME = 'rva_tracks'
     DESCRIPTION = "Re-Volt America's Tracks Pack"
-    YEAR = 23
-    MONTH = 10
-    DAY = 30
-    REVISION = 2
+    YEAR = 24
+    MONTH = 5
+    DAY = 1
+    REVISION = 1
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY < 10 ? "0#{DAY}" : DAY}#{SUFFIX}-#{REVISION}"
     URL = 'https://distribute.rva.lat/rva/rva_tracks.zip'
