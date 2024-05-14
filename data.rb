@@ -13,7 +13,7 @@ module RVA
   module RVACars
     NAME = 'rva_cars'
     DESCRIPTION = "Re-Volt America's Cars Pack"
-    YEAR = 23
+    YEAR = 24
     MONTH = 5
     DAY = 1
     REVISION = 1
