@@ -3,10 +3,10 @@
 module RVA
   NAME = 'Re-Volt America'
   DESCRIPTION = "Re-Volt America's Official Content Pack"
-  YEAR = 25
-  MONTH = 8
-  DAY = 25
-  REVISION = 4
+  YEAR = 26
+  MONTH = 3
+  DAY = 10
+  REVISION = 1
   SUFFIX = 'a'
   VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY < 10 ? "0#{DAY}" : DAY}#{SUFFIX}-#{REVISION}"
 
@@ -14,8 +14,8 @@ module RVA
     NAME = 'rva_cars'
     DESCRIPTION = "Re-Volt America's Cars Pack"
     YEAR = 26
-    MONTH = 1
-    DAY = 5
+    MONTH = 3
+    DAY = 10
     REVISION = 1
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY < 10 ? "0#{DAY}" : DAY}#{SUFFIX}-#{REVISION}"
@@ -26,8 +26,8 @@ module RVA
     NAME = 'rva_tracks'
     DESCRIPTION = "Re-Volt America's Tracks Pack"
     YEAR = 26
-    MONTH = 1
-    DAY = 5
+    MONTH = 3
+    DAY = 10
     REVISION = 1
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY < 10 ? "0#{DAY}" : DAY}#{SUFFIX}-#{REVISION}"
@@ -38,8 +38,8 @@ module RVA
     NAME = 'rva_lego_tracks'
     DESCRIPTION = "Re-Volt America's Lego Tracks Pack (OPTIONAL)"
     YEAR = 26
-    MONTH = 1
-    DAY = 5
+    MONTH = 3
+    DAY = 10
     REVISION = 1
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY < 10 ? "0#{DAY}" : DAY}#{SUFFIX}-#{REVISION}"
