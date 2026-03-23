@@ -6,7 +6,7 @@ module RVA
   YEAR = 26
   MONTH = 3
   DAY = 10
-  REVISION = 1
+  REVISION = 2
   SUFFIX = 'a'
   VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY < 10 ? "0#{DAY}" : DAY}#{SUFFIX}-#{REVISION}"
 
@@ -27,7 +27,7 @@ module RVA
     DESCRIPTION = "Re-Volt America's Tracks Pack"
     YEAR = 26
     MONTH = 3
-    DAY = 10
+    DAY = 23
     REVISION = 1
     SUFFIX = 'a'
     VERSION = "#{YEAR}.#{MONTH < 10 ? "0#{MONTH}" : MONTH}#{DAY < 10 ? "0#{DAY}" : DAY}#{SUFFIX}-#{REVISION}"
